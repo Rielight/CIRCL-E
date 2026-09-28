@@ -1,0 +1,122 @@
+[
+  {
+    "score_dimension":"RRP",
+    "criterion_id":"RRP_A_resource_relevance",
+    "criterion_name":"Resource concentration \/ relevance",
+    "validity_role":"MANDATORY",
+    "meaning":"Resource significance of the class\/feed; chemistry-dependent when chemistry matters.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"RRP",
+    "criterion_id":"RRP_B_recovery_maturity",
+    "criterion_name":"Recovery pathway maturity",
+    "validity_role":"AT_LEAST_ONE_OF_BC",
+    "meaning":"Existence\/maturity of appropriate recovery pathways.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"RRP",
+    "criterion_id":"RRP_C_feed_specificity",
+    "criterion_name":"Feed specificity \/ separability",
+    "validity_role":"AT_LEAST_ONE_OF_BC",
+    "meaning":"How specific\/concentrated the visible\/semantic feed is for recovery.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"WRO",
+    "criterion_id":"WRO_A_product_reuse",
+    "criterion_name":"Product reuse relevance",
+    "validity_role":"MANDATORY",
+    "meaning":"Class-level relevance of whole-device reuse\/refurbishment; never functionality probability.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"WRO",
+    "criterion_id":"WRO_B_visual_integrity",
+    "criterion_name":"Visible whole-device integrity",
+    "validity_role":"IMAGE_STATE",
+    "meaning":"Image-derived integrity\/condition only.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"WRO",
+    "criterion_id":"WRO_C_configuration_completeness",
+    "criterion_name":"Visible completeness \/ configuration compatibility",
+    "validity_role":"IMAGE_STATE",
+    "meaning":"Image-derived completeness\/configuration compatible with whole-device second life.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"CSO",
+    "criterion_id":"CSO_A_component_salvage",
+    "criterion_name":"Component salvage relevance",
+    "validity_role":"MANDATORY",
+    "meaning":"Class-level relevance of reusable\/salvageable parts or modules.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"CSO",
+    "criterion_id":"CSO_B_accessibility_dismantling",
+    "criterion_name":"Component accessibility \/ dismantling state",
+    "validity_role":"IMAGE_STATE_OPTIONAL",
+    "meaning":"Exposed\/open\/dismantled state affecting access to parts.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"CSO",
+    "criterion_id":"CSO_C_component_specificity",
+    "criterion_name":"Identifiable component \/ subassembly opportunity",
+    "validity_role":"MANDATORY_SECONDARY",
+    "meaning":"How strongly the class presents identifiable components\/subassemblies.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"TPC",
+    "criterion_id":"TPC_A_specialist_requirement",
+    "criterion_name":"Specialist-treatment requirement",
+    "validity_role":"TWO_OF_THREE",
+    "meaning":"Need for specialist processing\/handling.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"TPC",
+    "criterion_id":"TPC_B_separation_complexity",
+    "criterion_name":"Separation \/ disassembly complexity",
+    "validity_role":"TWO_OF_THREE",
+    "meaning":"Structural\/material separation burden.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"TPC",
+    "criterion_id":"TPC_C_screening_relevance",
+    "criterion_name":"Safety \/ regulatory-screen relevance",
+    "validity_role":"TWO_OF_THREE",
+    "meaning":"Need for controlled handling or regulatory screening; not legal status.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"IRP",
+    "criterion_id":"IRP_A_assignment_resolution",
+    "criterion_name":"Assignment resolution need",
+    "validity_role":"MAX_RULE",
+    "meaning":"Frozen operational assignment\/support diagnostic.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"IRP",
+    "criterion_id":"IRP_B_semantic_evidence_resolution",
+    "criterion_name":"Semantic\/evidence resolution need",
+    "validity_role":"MAX_RULE",
+    "meaning":"Evidence-transfer and mandatory-anchor ambiguity diagnostic.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  },
+  {
+    "score_dimension":"IRP",
+    "criterion_id":"IRP_C_visual_atypicality_inventory",
+    "criterion_name":"Visual atypicality \/ inventory complexity",
+    "validity_role":"MAX_RULE",
+    "meaning":"Within-parent patch atypicality and clutter\/scene diagnostic.",
+    "ordinal_scale":"1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED"
+  }
+]

@@ -1,0 +1,370 @@
+{
+  "root": "electronic_equipment_and_e_waste",
+  "broad_concepts": [
+    {
+      "parent_id": 0,
+      "semantic_key": "residual:mixed_electronics",
+      "label": "Mixed residual: heterogeneous small electronics / ambiguous devices and scenes",
+      "role": "mixed_residual",
+      "status": "mixed"
+    },
+    {
+      "parent_id": 1,
+      "semantic_key": "device:smartphone",
+      "label": "Smartphones / handheld mobile phones",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 2,
+      "semantic_key": "component:electronic_board_or_component",
+      "label": "Printed circuit boards and electronic-board/components",
+      "role": "component_family",
+      "status": "accepted_broad_only"
+    },
+    {
+      "parent_id": 3,
+      "semantic_key": "device:computer_mouse",
+      "label": "Computer mice / pointing devices",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 4,
+      "semantic_key": "device:printer",
+      "label": "Printers / printing devices",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 5,
+      "semantic_key": "device:computer_keyboard",
+      "label": "Computer keyboards",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 6,
+      "semantic_key": "device:laptop",
+      "label": "Laptop / notebook computers",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 7,
+      "semantic_key": "device:microwave_oven",
+      "label": "Microwave ovens",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 8,
+      "semantic_key": "scene:mixed_e_waste_accumulation",
+      "label": "Mixed e-waste accumulation / scrapyard scenes",
+      "role": "scene_context",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 9,
+      "semantic_key": "device:flat_panel_display",
+      "label": "Flat-panel monitors / television displays",
+      "role": "device_family",
+      "status": "accepted_broad_only"
+    },
+    {
+      "parent_id": 10,
+      "semantic_key": "component:battery_or_cell",
+      "label": "Batteries, cells and battery packs",
+      "role": "component_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 11,
+      "semantic_key": "device:front_loading_washing_machine",
+      "label": "Front-loading washing machines",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 12,
+      "semantic_key": "device:crt_display",
+      "label": "CRT televisions / CRT displays",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 13,
+      "semantic_key": "device:audio_playback_equipment",
+      "label": "Audio playback / stereo equipment",
+      "role": "device_family",
+      "status": "accepted_broad_only"
+    },
+    {
+      "parent_id": 14,
+      "semantic_key": "device:turntable_record_player",
+      "label": "Turntables / record players",
+      "role": "device_family",
+      "status": "accepted"
+    },
+    {
+      "parent_id": 15,
+      "semantic_key": "device:top_loading_or_semi_automatic_washing_machine",
+      "label": "Top-loading / semi-automatic washing machines",
+      "role": "device_family",
+      "status": "accepted"
+    }
+  ],
+  "child_semantic_concepts": [
+    {
+      "semantic_key": "condition:phone_no_obvious_severe_screen_breakage",
+      "label": "Phone with no obvious severe screen breakage",
+      "role": "condition"
+    },
+    {
+      "semantic_key": "condition:phone_display_cracked_or_shattered",
+      "label": "Cracked / shattered-display phone",
+      "role": "condition"
+    },
+    {
+      "semantic_key": "component:pcb_logic_board_like",
+      "label": "Isolated PCB / logic-board-like board",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "component:pcb_discrete_component_or_power_control_like",
+      "label": "Discrete-component / power-control-like PCB morphology",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "config:bulk_pcb_collection",
+      "label": "Bulk PCB / motherboard pile",
+      "role": "configuration"
+    },
+    {
+      "semantic_key": "component:loose_ic_or_processor_package",
+      "label": "Loose IC / processor-style packages",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "form:mouse_contoured_dark_or_colored",
+      "label": "Varied dark/colored, more contoured mouse forms",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "form:mouse_light_smooth_rounded",
+      "label": "Light/silver, smooth rounded mouse forms",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:printer_consumer_inkjet_photo_aio_like",
+      "label": "Consumer inkjet/photo/all-in-one-printer-like form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:printer_office_laser_mfp_like",
+      "label": "Laser/office/MFP-like printer form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "config:laptop_open",
+      "label": "Open laptop",
+      "role": "configuration"
+    },
+    {
+      "semantic_key": "config:laptop_closed",
+      "label": "Closed / lid-down / stowed laptop",
+      "role": "configuration"
+    },
+    {
+      "semantic_key": "condition:laptop_dismantled_damaged_or_scrap",
+      "label": "Dismantled, damaged or laptop-scrap configuration",
+      "role": "condition"
+    },
+    {
+      "semantic_key": "scene:ewaste_object_scale_heap",
+      "label": "Object-scale mixed e-waste heap / collection",
+      "role": "scene_context"
+    },
+    {
+      "semantic_key": "scene:ewaste_large_outdoor_heap",
+      "label": "Large outdoor scrapyard / landfill-scale e-waste scene",
+      "role": "scene_context"
+    },
+    {
+      "semantic_key": "acquisition:display_in_situ",
+      "label": "Monitor/display photographed in an in-situ desk/room context",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "acquisition:display_isolated_product_style",
+      "label": "Isolated/plain-background monitor product-style image",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "component:battery_flat_small_device_pack",
+      "label": "Flat small-device / handset-style battery pack",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "component:battery_laptop_pack",
+      "label": "Long laptop battery pack",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "component:battery_large_terminal_rectangular",
+      "label": "Large terminal / lead-acid-like rectangular battery form",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "component:battery_consumer_cells",
+      "label": "Consumer replaceable cells, predominantly cylindrical",
+      "role": "component_subtype"
+    },
+    {
+      "semantic_key": "form:crt_woodgrain_side_control_cabinet",
+      "label": "Woodgrain/side-control/older-style CRT cabinet form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "form:crt_compact_plastic_cabinet",
+      "label": "Compact plastic/darker CRT cabinet form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:audio_boombox_radio_cd",
+      "label": "Portable boombox / radio-CD stereo",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:audio_personal_cd_player",
+      "label": "Personal portable CD-player form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:audio_hifi_component_deck",
+      "label": "Hi-fi deck / component audio player",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:turntable_standalone_or_portable",
+      "label": "Standalone / portable open-deck turntable",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:turntable_integrated_console",
+      "label": "Integrated cabinet/console record-player form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "residual:mixed_power_misc",
+      "label": "Mixed residual with mains/power-connection and miscellaneous-device core",
+      "role": "mixed_residual"
+    },
+    {
+      "semantic_key": "residual:handheld_like_subset",
+      "label": "Single handheld/mobile-device-like residual subset",
+      "role": "ambiguous"
+    },
+    {
+      "semantic_key": "scene:small_electronics_collection",
+      "label": "Pile/collection of mobile phones and small electronics",
+      "role": "scene_context"
+    },
+    {
+      "semantic_key": "scene:pcb_scrap_with_wires_debris",
+      "label": "PCB/electronic scrap mixed with wires/debris",
+      "role": "scene_context"
+    },
+    {
+      "semantic_key": "form:mouse_dark_contoured",
+      "label": "Dark/colored, contoured modern-consumer mouse appearance",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "acquisition:mouse_clean_isolated",
+      "label": "Clean isolated conventional mouse product-style imagery",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "config:mouse_wired_context",
+      "label": "Wired mouse in desk/table context; cord salient",
+      "role": "configuration"
+    },
+    {
+      "semantic_key": "form:mouse_sculpted_ergonomic",
+      "label": "Sculpted/ergonomic/feature-rich mouse form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "form:pointing_device_legacy_or_unusual",
+      "label": "Legacy/boxy/trackball-style or unusual pointing-device form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "subtype:printer_special_purpose_like",
+      "label": "Special-purpose/impact/label/receipt-printer-like forms",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "scene:keyboard_desktop_setup",
+      "label": "Keyboard in desktop/desk setup",
+      "role": "scene_context"
+    },
+    {
+      "semantic_key": "form:keyboard_conventional_full_size",
+      "label": "Isolated conventional full-size keyboard",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "form:keyboard_compact_low_profile",
+      "label": "Compact/chiclet/low-profile keyboard form",
+      "role": "device_subtype"
+    },
+    {
+      "semantic_key": "acquisition:microwave_clean_catalog",
+      "label": "Clean isolated/catalog-like microwave presentation",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "acquisition:microwave_in_situ",
+      "label": "In-situ/installed/used microwave presentation",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "scene:display_room_installation",
+      "label": "Display/TV in room or installation context",
+      "role": "scene_context"
+    },
+    {
+      "semantic_key": "condition:display_cracked_or_malfunctioning",
+      "label": "Cracked, shattered or visibly malfunctioning display",
+      "role": "condition"
+    },
+    {
+      "semantic_key": "config:display_powered_active",
+      "label": "Powered/active display with visible image content",
+      "role": "configuration"
+    },
+    {
+      "semantic_key": "acquisition:front_load_washer_clean_product",
+      "label": "Clean/canonical front-load washer product presentation",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "acquisition:front_load_washer_in_situ",
+      "label": "Varied/in-situ/used/colored or less canonical washer presentation",
+      "role": "acquisition_style"
+    },
+    {
+      "semantic_key": "device:top_loading_or_semi_automatic_washing_machine",
+      "label": "Parent-only singleton visual leaf: top-loading/semi-automatic washer family",
+      "role": "device_family"
+    }
+  ],
+  "notes": [
+    "raw numerical IDs remain distinct even when semantic keys match",
+    "condition/configuration/context are not forced into subtype taxonomy",
+    "P00 remains mixed residual",
+    "patch atypicality is not a damage probability"
+  ]
+}

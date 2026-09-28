@@ -1,0 +1,41 @@
+# CIRCL-E Dashboard 1.0.0
+#
+#   1. cp .env.example .env   and set CIRCL_DINO_HOST_DIR / CIRCL_CRADIO_HOST_DIR
+#   2. docker compose up --build
+#   3. open http://localhost:8501
+#
+# Requires the NVIDIA Container Toolkit. The backbone directories are mounted
+# read-only; the frozen release and application are read-only too.
+services:
+  circl-e:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: circl-e-dashboard:1.0.0
+    ports:
+      - "${CIRCLE_PORT:-8501}:8501"
+    environment:
+      CIRCL_RELEASE_DIR: /app/runtime/release
+      CIRCL_DINO_DIR: /models/dino
+      CIRCL_CRADIO_DIR: /models/cradio
+      STREAMLIT_SERVER_HEADLESS: "true"
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+    volumes:
+      - "${CIRCL_DINO_HOST_DIR:?set CIRCL_DINO_HOST_DIR in .env}:/models/dino:ro"
+      - "${CIRCL_CRADIO_HOST_DIR:?set CIRCL_CRADIO_HOST_DIR in .env}:/models/cradio:ro"
+      - ./runtime/release:/app/runtime/release:ro
+    # GPU reservation (Docker Compose v2, non-swarm).
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 5
+    restart: unless-stopped

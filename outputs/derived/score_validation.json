@@ -1,0 +1,372 @@
+[
+  {
+    "check":"Stage-2 ZIP SHA policy satisfied",
+    "status":"PASS",
+    "detail":"Exact SHA-256 match."
+  },
+  {
+    "check":"Frozen 16\/28\/48 structure preserved",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"3793 canonical images preserved",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Non-self manifest hashes preserved",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Primary dimensions are the approved disentangled set",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"RRP unresolved whenever RRP-A unresolved",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Battery generic RRP remains unresolved without chemistry-dependent resource relevance",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Battery whole-device WRO is N\/A at component level",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"WRO requires image-state evidence",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"CSO requires salvage relevance",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"PCB whole-device WRO is N\/A while CSO remains high",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Dismantled laptop raw leaf lowers WRO when active",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Dismantled laptop raw leaf preserves\/highlights CSO",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Visual condition rules cannot modify RRP",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Parent support percentile is within parent",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Support explicitly not probability",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Support not used to widen model\/evidence ranges",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Reference retention never named probability",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"IRP rules fully registered",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"IRP uses maximum diagnostic need",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Patch affects no central RRP\/WRO\/CSO\/TPC rule",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Global ICA factor1 has no transition rule",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Battery morphology does not create chemistry output",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Generic PCB composition leakage absent",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unknown mixed abstains on all primary dimensions",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unknown mixed retains IRP",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Residual\/scene item profiles abstain",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Fine rules require operational reliable fine assignment",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Nuisance structures have exact zero central effects",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Every primary criterion has anchor origin",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Every route anchor has anchor origin",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Every literature criterion anchor has registered sources",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Every literature route anchor has registered sources",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Central sources retain verification status",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Central sources retain exact locator text",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"External source system boundaries are explicit",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Synthesis criterion anchors specify support logic",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Synthesis route anchors specify support logic",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"MODEL_RATIONALE remains visible",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"All finite primary levels ordinal",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"All finite model ranges ordinal",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Reference retention bounded 0-1",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Shared evidence state arrays are one per parent\/criterion\/scenario",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unresolved image-state anchors do not invent sensitivity states",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Route compatibility finite states ordinal",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Route ties preserved as sets",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Route reference-set retention bounded 0-1",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Source ablation recomputed under support logic",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Route source ablation recomputed under support logic",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Leave-one-criterion-out executed",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Attribute-stage ablation executed",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"WRO\/CSO sensitivity reported",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Global factor1 off audit zero",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"No primary monetary\/currency fields",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"No authoritative language in primary schema",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"No downstream feedback into frozen IDs",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Every external criterion anchor manually reviewed",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Every external route anchor manually reviewed",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"No context-only source is classified primary",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Support logic unit tests pass",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Claim ablation supports all four declared outcomes",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unknown-mixed sorting fallback registered",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unknown-mixed residual fallback registered",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unknown product-specific route clearing registered",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unknown route outputs match registry",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Unresolved WRO preserves separate class anchor when applicable",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Component-level WRO suppresses class reuse output",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"IRP tied max reasons preserved",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"IRP methodology is relative triage",
+    "status":"PASS",
+    "detail":"Verified in exported methodology text during export validation."
+  },
+  {
+    "check":"Primary human drivers are readable text",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"E002 publication and consolidation dates are separated",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"E003 effective date is not mislabelled as publication date",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"E001 RRP dependency is recomputed and quantified",
+    "status":"PASS",
+    "detail":""
+  },
+  {
+    "check":"Representative source-image bytes are not falsely assumed available",
+    "status":"PASS",
+    "detail":"Stage-2 package contains visual-summary figures but not original source-image bytes; cards retain IDs\/filenames only."
+  }
+]

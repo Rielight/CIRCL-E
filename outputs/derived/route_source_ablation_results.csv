@@ -1,0 +1,14 @@
+source_id,affected_route_anchors,unchanged_anchors,broadened_anchors,downgraded_anchors,unsupported_anchors,changed_route_sets
+E001,0,0,0,0,0,0
+E002,6,6,0,0,0,0
+E003,0,0,0,0,0,0
+E004,0,0,0,0,0,0
+E005,1,0,0,1,0,288
+E006,1,0,1,0,0,0
+E007,0,0,0,0,0,0
+E008,1,0,0,1,0,168
+E009,1,0,0,1,0,288
+E010,0,0,0,0,0,0
+E011,5,0,0,5,0,1149
+E012,1,0,0,1,0,12
+E013,1,0,0,1,0,201

@@ -1,0 +1,12 @@
+[server]
+headless = true
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+# Restrained neutral accent; the Streamlit default is red, which reads as an
+# error state. Red is reserved for genuine error/critical status.
+primaryColor = "#4A6C8C"
+

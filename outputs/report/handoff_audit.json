@@ -1,0 +1,14 @@
+{
+  "analysis_date": "2026-09-26",
+  "stage2_zip_sha256": "a0fc8c82c4fa44f1efb9ce27f7566c2ca7e459e40d57d0085940f6b81a1dd280",
+  "structures": {
+    "fine": 28,
+    "parent": 16,
+    "raw_visual": 48
+  },
+  "canonical_images": 3793,
+  "internal_manifest_hashes_match": true,
+  "legacy_manifest_self_hash_mismatch": false,
+  "numerical_memberships_changed": false,
+  "semantic_mappings_changed": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "assignment_support_state":"HIGH_RELATIVE_SUPPORT",
+    "images":847,
+    "RRP_median_reference_retention":0.5,
+    "WRO_median_reference_retention":0.5,
+    "CSO_median_reference_retention":0.29296875,
+    "TPC_median_reference_retention":0.51953125
+  },
+  {
+    "assignment_support_state":"LOW_RELATIVE_SUPPORT",
+    "images":822,
+    "RRP_median_reference_retention":0.5,
+    "WRO_median_reference_retention":0.5,
+    "CSO_median_reference_retention":0.29296875,
+    "TPC_median_reference_retention":0.51953125
+  },
+  {
+    "assignment_support_state":"MEDIUM_RELATIVE_SUPPORT",
+    "images":1670,
+    "RRP_median_reference_retention":0.5,
+    "WRO_median_reference_retention":0.5,
+    "CSO_median_reference_retention":0.29296875,
+    "TPC_median_reference_retention":0.51953125
+  }
+]

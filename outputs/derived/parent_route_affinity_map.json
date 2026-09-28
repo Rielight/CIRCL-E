@@ -1,0 +1,5445 @@
+[
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"reuse_refurbish",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"parts_harvest",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"bulk_material_recovery",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"specialist_pcb",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"battery_specialist",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"crt_specialist",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"sorting_dismantling",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":0,
+    "semantic_key":"residual:mixed_electronics",
+    "route_id":"residual_treatment",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P00:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"reuse_refurbish",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E002",
+      "E012"
+    ],
+    "rationale":"Reuse\/refurbishment pathway relevance is documented, but actual item functionality is unknown.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:reuse_refurbish",
+    "source_roles":{
+      "E012":"PRIMARY",
+      "E002":"CONTEXT_ONLY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E012"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+      "E002"
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":3.0,
+    "fallback_allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Mobile-specific reuse\/refurbishment guidance is primary; WEEE legislation is context only.",
+    "support_policy_id":"MANUAL:P01:ROUTE:reuse_refurbish"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"parts_harvest",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":1,
+    "semantic_key":"device:smartphone",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P01:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"reuse_refurbish",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"specialist_pcb",
+    "reference_level":4.0,
+    "allowed_levels":[
+      4
+    ],
+    "anchor_origin":"DIRECT_LITERATURE",
+    "source_ids":[
+      "E005",
+      "E009"
+    ],
+    "rationale":"PCB\/e-scrap specialist processing is directly documented.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:specialist_pcb",
+    "source_roles":{
+      "E005":"PRIMARY",
+      "E009":"PRIMARY"
+    },
+    "support_logic":"ALL",
+    "minimum_supporting_sources":2,
+    "primary_required_source_ids":[
+      "E005",
+      "E009"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":3.0,
+    "fallback_allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Both PCB applicability and a specialist industrial e-scrap process are required for a literature-grounded Level-4 specialist route.",
+    "support_policy_id":"MANUAL:P02:ROUTE:specialist_pcb"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"sorting_dismantling",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":2,
+    "semantic_key":"component:electronic_board_or_component",
+    "route_id":"residual_treatment",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P02:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"reuse_refurbish",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E002",
+      "E011"
+    ],
+    "rationale":"Reuse\/refurbishment pathway relevance is documented, but actual item functionality is unknown.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:reuse_refurbish",
+    "source_roles":{
+      "E011":"PRIMARY",
+      "E002":"CONTEXT_ONLY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E011"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+      "E002"
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":2.0,
+    "fallback_allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"PACE computing\/peripheral refurbishment guidance is primary; WEEE legislation is context only.",
+    "support_policy_id":"MANUAL:P03:ROUTE:reuse_refurbish"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":3,
+    "semantic_key":"device:computer_mouse",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P03:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"reuse_refurbish",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E002",
+      "E011"
+    ],
+    "rationale":"Reuse\/refurbishment pathway relevance is documented, but actual item functionality is unknown.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:reuse_refurbish",
+    "source_roles":{
+      "E011":"PRIMARY",
+      "E002":"CONTEXT_ONLY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E011"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+      "E002"
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":2.0,
+    "fallback_allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"PACE computing\/peripheral refurbishment guidance is primary; WEEE legislation is context only.",
+    "support_policy_id":"MANUAL:P04:ROUTE:reuse_refurbish"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"parts_harvest",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"bulk_material_recovery",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":4,
+    "semantic_key":"device:printer",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P04:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"reuse_refurbish",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E002",
+      "E011"
+    ],
+    "rationale":"Reuse\/refurbishment pathway relevance is documented, but actual item functionality is unknown.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:reuse_refurbish",
+    "source_roles":{
+      "E011":"PRIMARY",
+      "E002":"CONTEXT_ONLY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E011"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+      "E002"
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":2.0,
+    "fallback_allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"PACE computing\/peripheral refurbishment guidance is primary; WEEE legislation is context only.",
+    "support_policy_id":"MANUAL:P05:ROUTE:reuse_refurbish"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":5,
+    "semantic_key":"device:computer_keyboard",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P05:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"reuse_refurbish",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E002",
+      "E011"
+    ],
+    "rationale":"Reuse\/refurbishment pathway relevance is documented, but actual item functionality is unknown.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:reuse_refurbish",
+    "source_roles":{
+      "E011":"PRIMARY",
+      "E002":"CONTEXT_ONLY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E011"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+      "E002"
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":3.0,
+    "fallback_allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"PACE computing\/peripheral refurbishment guidance is primary; WEEE legislation is context only.",
+    "support_policy_id":"MANUAL:P06:ROUTE:reuse_refurbish"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"parts_harvest",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"specialist_pcb",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":6,
+    "semantic_key":"device:laptop",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P06:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"reuse_refurbish",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"bulk_material_recovery",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":7,
+    "semantic_key":"device:microwave_oven",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P07:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"reuse_refurbish",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"parts_harvest",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"bulk_material_recovery",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"specialist_pcb",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"battery_specialist",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"crt_specialist",
+    "reference_level":null,
+    "allowed_levels":[
+
+    ],
+    "anchor_origin":"UNSUPPORTED",
+    "source_ids":[
+
+    ],
+    "rationale":"No defensible route-specific item-level anchor.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"UNSUPPORTED",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"sorting_dismantling",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":8,
+    "semantic_key":"scene:mixed_e_waste_accumulation",
+    "route_id":"residual_treatment",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P08:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"reuse_refurbish",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E002",
+      "E011"
+    ],
+    "rationale":"Reuse\/refurbishment pathway relevance is documented, but actual item functionality is unknown.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:reuse_refurbish",
+    "source_roles":{
+      "E011":"PRIMARY",
+      "E002":"CONTEXT_ONLY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E011"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+      "E002"
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":2.0,
+    "fallback_allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"PACE computing\/peripheral refurbishment guidance is primary; WEEE legislation is context only.",
+    "support_policy_id":"MANUAL:P09:ROUTE:reuse_refurbish"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"parts_harvest",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"sorting_dismantling",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":9,
+    "semantic_key":"device:flat_panel_display",
+    "route_id":"residual_treatment",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P09:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"reuse_refurbish",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"parts_harvest",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"bulk_material_recovery",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"battery_specialist",
+    "reference_level":4.0,
+    "allowed_levels":[
+      4
+    ],
+    "anchor_origin":"LITERATURE_SYNTHESIS",
+    "source_ids":[
+      "E006",
+      "E013"
+    ],
+    "rationale":"Dedicated battery treatment\/recycling is documented across industrial\/regulatory sources; chemistry remains unresolved.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:battery_specialist",
+    "source_roles":{
+      "E013":"PRIMARY",
+      "E006":"CORROBORATING"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E013"
+    ],
+    "corroborating_source_ids":[
+      "E006"
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":3.0,
+    "fallback_allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"BROADEN_IF_SUPPORT_REMAINS",
+    "support_review_note":"Multi-category battery treatment requirements are primary; Li-ion industrial process evidence corroborates but cannot substitute for unknown chemistry.",
+    "support_policy_id":"MANUAL:P10:ROUTE:battery_specialist"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"sorting_dismantling",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":10,
+    "semantic_key":"component:battery_or_cell",
+    "route_id":"residual_treatment",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P10:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"reuse_refurbish",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"bulk_material_recovery",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":11,
+    "semantic_key":"device:front_loading_washing_machine",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P11:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"reuse_refurbish",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"crt_specialist",
+    "reference_level":4.0,
+    "allowed_levels":[
+      4
+    ],
+    "anchor_origin":"DIRECT_LITERATURE",
+    "source_ids":[
+      "E008"
+    ],
+    "rationale":"CRT controlled disassembly\/recycling is directly documented.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:crt_specialist",
+    "source_roles":{
+      "E008":"PRIMARY"
+    },
+    "support_logic":"PRIMARY_REQUIRED",
+    "minimum_supporting_sources":1,
+    "primary_required_source_ids":[
+      "E008"
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"MANUALLY_REVIEWED_2026-09-26",
+    "fallback_action":"ANCHOR_DOWNGRADES_TO_MODEL_RATIONALE",
+    "fallback_reference_level":3.0,
+    "fallback_allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "fallback_origin":"MODEL_RATIONALE_AFTER_SOURCE_ABLATION",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"CRT-specific technical\/management evidence is primary; loss downgrades the route to explicit model rationale rather than pretending it remains literature-derived.",
+    "support_policy_id":"MANUAL:P12:ROUTE:crt_specialist"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"sorting_dismantling",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":12,
+    "semantic_key":"device:crt_display",
+    "route_id":"residual_treatment",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P12:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"reuse_refurbish",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"parts_harvest",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":13,
+    "semantic_key":"device:audio_playback_equipment",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P13:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"reuse_refurbish",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"parts_harvest",
+    "reference_level":3.0,
+    "allowed_levels":[
+      2,
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"bulk_material_recovery",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":14,
+    "semantic_key":"device:turntable_record_player",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P14:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"reuse_refurbish",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:reuse_refurbish",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"parts_harvest",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:parts_harvest",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"bulk_material_recovery",
+    "reference_level":4.0,
+    "allowed_levels":[
+      3,
+      4
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:bulk_material_recovery",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"specialist_pcb",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:specialist_pcb",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"battery_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:battery_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"crt_specialist",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:crt_specialist",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"sorting_dismantling",
+    "reference_level":2.0,
+    "allowed_levels":[
+      1,
+      2,
+      3
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:sorting_dismantling",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  },
+  {
+    "parent_id":15,
+    "semantic_key":"device:top_loading_or_semi_automatic_washing_machine",
+    "route_id":"residual_treatment",
+    "reference_level":1.0,
+    "allowed_levels":[
+      1,
+      2
+    ],
+    "anchor_origin":"MODEL_RATIONALE",
+    "source_ids":[
+
+    ],
+    "rationale":"Compatibility level is an explicit treatment-route model rationale, not a literature-derived probability.",
+    "interpretation":"ordinal route compatibility; not probability, profitability or optimality",
+    "claim_id":"P15:ROUTE:residual_treatment",
+    "source_roles":{
+
+    },
+    "support_logic":"NONE_REQUIRED",
+    "minimum_supporting_sources":0,
+    "primary_required_source_ids":[
+
+    ],
+    "corroborating_source_ids":[
+
+    ],
+    "context_only_source_ids":[
+
+    ],
+    "support_review_status":"NOT_EXTERNAL",
+    "fallback_action":"KEEP_DECLARED_RATIONALE_OR_STATE",
+    "fallback_reference_level":null,
+    "fallback_allowed_levels":[
+
+    ],
+    "fallback_origin":"MODEL_RATIONALE",
+    "primary_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "corroborating_source_loss_effect":"UNCHANGED_IF_SUPPORT_REMAINS",
+    "support_review_note":"Non-external route rubric row.",
+    "support_policy_id":"NON_EXTERNAL_ROUTE"
+  }
+]

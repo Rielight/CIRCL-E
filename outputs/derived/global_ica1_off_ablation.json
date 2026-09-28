@@ -1,0 +1,11 @@
+[
+  {
+    "factor_id":1,
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "changed_RRP_images":0,
+    "changed_WRO_images":0,
+    "changed_CSO_images":0,
+    "changed_TPC_images":0,
+    "reason":"Universal central use remains disabled after confound audit."
+  }
+]

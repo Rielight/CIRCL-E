@@ -1,0 +1,130 @@
+[
+  {
+    "parent_id":0,
+    "interpretation":"General local atypicality in a heterogeneous residual family: rare local content, hands\/interaction, odd parts, unusual screens\/backgrounds.",
+    "condition_relevance":"low",
+    "nuisance_risk":"high",
+    "confidence":"low",
+    "rationale":"Residual family makes semantics weak."
+  },
+  {
+    "parent_id":1,
+    "interpretation":"Phone-local configuration\/condition\/context atypicality: unusual edges\/ports, handling, exposed hardware, partial disassembly and sometimes screen defects.",
+    "condition_relevance":"medium",
+    "nuisance_risk":"medium",
+    "confidence":"medium-high",
+    "rationale":"Not specifically a crack score."
+  },
+  {
+    "parent_id":2,
+    "interpretation":"Component-layout\/morphology atypicality: unusual large components, connectors, board regions, rare layouts, dirty or installed details.",
+    "condition_relevance":"low-medium",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low-medium and nuisance risk is medium."
+  },
+  {
+    "parent_id":3,
+    "interpretation":"Local design-feature\/viewpoint atypicality: unusual button\/wheel\/cable regions, rare shapes, close crops and atypical styling.",
+    "condition_relevance":"low",
+    "nuisance_risk":"medium",
+    "confidence":"medium-high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low and nuisance risk is medium."
+  },
+  {
+    "parent_id":4,
+    "interpretation":"Component\/configuration atypicality: open trays, exposed internals, specialist front panels and unusual printer mechanisms.",
+    "condition_relevance":"medium",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is medium and nuisance risk is medium."
+  },
+  {
+    "parent_id":5,
+    "interpretation":"Layout\/form\/configuration atypicality: uncommon key layouts, edge\/profile geometry, compact\/ergonomic forms and hand interaction.",
+    "condition_relevance":"low",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low and nuisance risk is medium."
+  },
+  {
+    "parent_id":6,
+    "interpretation":"Strong laptop condition\/configuration atypicality: broken screens, exposed chassis, stacks\/parts, cracks and unusual port\/chassis regions.",
+    "condition_relevance":"high",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"Condition-sensitive but broader than damage."
+  },
+  {
+    "parent_id":7,
+    "interpretation":"Microwave facade\/context atypicality: window\/control-panel peculiarities and in-situ kitchen\/context features.",
+    "condition_relevance":"low",
+    "nuisance_risk":"high",
+    "confidence":"medium-high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low and nuisance risk is high."
+  },
+  {
+    "parent_id":8,
+    "interpretation":"Rare-object\/scene-composition atypicality: distinctive recognizable devices or stacks against repetitive heaps.",
+    "condition_relevance":"low",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low and nuisance risk is medium."
+  },
+  {
+    "parent_id":9,
+    "interpretation":"Screen-state\/condition\/viewpoint mixture: unusual screen areas, stands, reflections\/content, breakage and installation context.",
+    "condition_relevance":"medium-high",
+    "nuisance_risk":"high",
+    "confidence":"medium-high",
+    "rationale":"Do not collapse to display damage."
+  },
+  {
+    "parent_id":10,
+    "interpretation":"Form-factor\/component-detail atypicality: labels, terminals\/connectors, unusual pack shapes and bulk battery arrangements.",
+    "condition_relevance":"low",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low and nuisance risk is medium."
+  },
+  {
+    "parent_id":11,
+    "interpretation":"Front-face\/configuration\/context atypicality: door\/window contents, unusual geometry, paired\/discarded machines and contextual details.",
+    "condition_relevance":"medium",
+    "nuisance_risk":"high",
+    "confidence":"medium-high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is medium and nuisance risk is high."
+  },
+  {
+    "parent_id":12,
+    "interpretation":"Viewpoint\/cabinet-detail\/state atypicality: screen content, odd angles, unusual cabinet features, antenna\/edge details.",
+    "condition_relevance":"low-medium",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low-medium and nuisance risk is medium."
+  },
+  {
+    "parent_id":13,
+    "interpretation":"Control-layout\/form atypicality: speaker\/control layouts, unusual boombox forms and stack\/deck details.",
+    "condition_relevance":"low",
+    "nuisance_risk":"medium",
+    "confidence":"high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low and nuisance risk is medium."
+  },
+  {
+    "parent_id":14,
+    "interpretation":"Configuration\/style\/context atypicality: platter\/record\/lid regions, unusual console furniture, hand interaction and bright stylistic details.",
+    "condition_relevance":"low-medium",
+    "nuisance_risk":"medium-high",
+    "confidence":"medium-high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low-medium and nuisance risk is medium-high."
+  },
+  {
+    "parent_id":15,
+    "interpretation":"Control\/configuration\/acquisition atypicality: control panels, lids, unusual shapes and in-situ scenes.",
+    "condition_relevance":"low-medium",
+    "nuisance_risk":"medium-high",
+    "confidence":"medium-high",
+    "rationale":"High\/middle\/low montage and heatmap review supports this as identity-relative local visual deviation; condition relevance is low-medium and nuisance risk is medium-high."
+  }
+]

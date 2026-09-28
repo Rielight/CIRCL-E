@@ -1,0 +1,77 @@
+stage,structure_id,parent_id,semantic_key,role,status,confidence,central_effect_rule_ids,sensitivity_rule_ids,nuisance_zero_effect_required,permission_status
+fine,0,1,condition:phone_no_obvious_severe_screen_breakage,condition,accepted,high,"[""F_PHONE_INTACT"", ""F_PHONE_INTACT_REUSE""]","[""F_PHONE_INTACT"", ""F_PHONE_INTACT_REUSE""]",False,REVIEWED_RULE
+fine,1,1,condition:phone_display_cracked_or_shattered,condition,accepted,high,"[""F_PHONE_CRACK"", ""F_PHONE_CRACK_REUSE"", ""F_PHONE_CRACK_PARTS""]","[""F_PHONE_CRACK"", ""F_PHONE_CRACK_REUSE"", ""F_PHONE_CRACK_PARTS""]",False,REVIEWED_RULE
+fine,2,2,component:pcb_logic_board_like,component_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,3,2,component:pcb_discrete_component_or_power_control_like,component_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,4,2,config:bulk_pcb_collection,configuration,accepted,high,"[""F_PCB_BULK_SORT""]","[""F_PCB_BULK_SORT""]",False,REVIEWED_RULE
+fine,5,2,component:loose_ic_or_processor_package,component_subtype,accepted,high,"[""F_PCB_IC_FEED"", ""F_PCB_IC_CSO"", ""F_PCB_IC_ROUTE""]","[""F_PCB_IC_FEED"", ""F_PCB_IC_CSO"", ""F_PCB_IC_ROUTE""]",False,REVIEWED_RULE
+fine,6,3,form:mouse_contoured_dark_or_colored,device_subtype,accepted,medium,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,7,3,form:mouse_light_smooth_rounded,device_subtype,accepted,medium,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,8,4,subtype:printer_consumer_inkjet_photo_aio_like,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,9,4,subtype:printer_office_laser_mfp_like,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,10,6,config:laptop_open,configuration,accepted,high,"[""F_LAPTOP_OPEN_WRO"", ""F_LAPTOP_OPEN_CSO"", ""F_LAPTOP_OPEN_PARTS""]","[""F_LAPTOP_OPEN_WRO"", ""F_LAPTOP_OPEN_CSO"", ""F_LAPTOP_OPEN_PARTS""]",False,REVIEWED_RULE
+fine,11,6,config:laptop_closed,configuration,accepted,high,"[""F_LAPTOP_CLOSED_WRO""]","[""F_LAPTOP_CLOSED_WRO""]",False,REVIEWED_RULE
+fine,12,6,condition:laptop_dismantled_damaged_or_scrap,condition,accepted,medium,[],"[""F_LAPTOP_DMG_WRO"", ""F_LAPTOP_DMG_CSO""]",False,REVIEWED_RULE
+fine,13,8,scene:ewaste_object_scale_heap,scene_context,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,14,8,scene:ewaste_large_outdoor_heap,scene_context,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,15,9,acquisition:display_in_situ,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+fine,16,9,acquisition:display_isolated_product_style,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+fine,17,10,component:battery_flat_small_device_pack,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,18,10,component:battery_laptop_pack,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,19,10,component:battery_large_terminal_rectangular,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,20,10,component:battery_consumer_cells,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,21,12,form:crt_woodgrain_side_control_cabinet,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,22,12,form:crt_compact_plastic_cabinet,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,23,13,subtype:audio_boombox_radio_cd,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,24,13,subtype:audio_personal_cd_player,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,25,13,subtype:audio_hifi_component_deck,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,26,14,subtype:turntable_standalone_or_portable,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+fine,27,14,subtype:turntable_integrated_console,device_subtype,accepted,medium-high,"[""F_TURNTABLE_CONSOLE"", ""F_TURNTABLE_CONSOLE_PARTS""]","[""F_TURNTABLE_CONSOLE"", ""F_TURNTABLE_CONSOLE_PARTS""]",False,REVIEWED_RULE
+raw_visual,0,0,residual:mixed_power_misc,mixed_residual,mixed,low,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,1,0,residual:handheld_like_subset,ambiguous,mixed,medium-low,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,2,0,scene:small_electronics_collection,scene_context,mixed,medium,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,3,1,condition:phone_no_obvious_severe_screen_breakage,condition,accepted,high,"[""R_PHONE_INTACT""]","[""R_PHONE_INTACT""]",False,REVIEWED_RULE
+raw_visual,4,1,condition:phone_display_cracked_or_shattered,condition,accepted,high,"[""R_PHONE_CRACK""]","[""R_PHONE_CRACK""]",False,REVIEWED_RULE
+raw_visual,5,2,component:pcb_logic_board_like,component_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,6,2,component:pcb_discrete_component_or_power_control_like,component_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,7,2,config:bulk_pcb_collection,configuration,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,8,2,scene:pcb_scrap_with_wires_debris,scene_context,accepted,medium-high,"[""R_PCB_DEBRIS"", ""R_PCB_DEBRIS_SORT"", ""R_PCB_DEBRIS_SPEC""]","[""R_PCB_DEBRIS"", ""R_PCB_DEBRIS_SORT"", ""R_PCB_DEBRIS_SPEC""]",False,REVIEWED_RULE
+raw_visual,9,2,component:loose_ic_or_processor_package,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,10,3,form:mouse_dark_contoured,device_subtype,accepted,medium,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,11,3,acquisition:mouse_clean_isolated,acquisition_style,nuisance_context,medium,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,12,3,config:mouse_wired_context,configuration,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,13,3,form:mouse_sculpted_ergonomic,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,14,3,form:pointing_device_legacy_or_unusual,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,15,4,subtype:printer_consumer_inkjet_photo_aio_like,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,16,4,subtype:printer_office_laser_mfp_like,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,17,4,subtype:printer_special_purpose_like,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,18,5,scene:keyboard_desktop_setup,scene_context,nuisance_context,medium-high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,19,5,form:keyboard_conventional_full_size,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,20,5,form:keyboard_compact_low_profile,device_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,21,6,config:laptop_open,configuration,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,22,6,config:laptop_closed,configuration,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,23,6,condition:laptop_dismantled_damaged_or_scrap,condition,accepted,high,"[""R_LAPTOP_DMG_WRO"", ""R_LAPTOP_DMG_WRO_CONFIG"", ""R_LAPTOP_DMG_CSO"", ""R_LAPTOP_DMG_REUSE"", ""R_LAPTOP_DMG_PARTS"", ""R_LAPTOP_DMG_SORT"", ""R_LAPTOP_DMG_TPC""]","[""R_LAPTOP_DMG_WRO"", ""R_LAPTOP_DMG_WRO_CONFIG"", ""R_LAPTOP_DMG_CSO"", ""R_LAPTOP_DMG_REUSE"", ""R_LAPTOP_DMG_PARTS"", ""R_LAPTOP_DMG_SORT"", ""R_LAPTOP_DMG_TPC""]",False,REVIEWED_RULE
+raw_visual,24,7,acquisition:microwave_clean_catalog,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,25,7,acquisition:microwave_in_situ,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,26,8,scene:ewaste_object_scale_heap,scene_context,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,27,8,scene:ewaste_large_outdoor_heap,scene_context,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,28,9,acquisition:display_in_situ,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,29,9,acquisition:display_isolated_product_style,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,30,9,scene:display_room_installation,scene_context,nuisance_context,medium-high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,31,9,condition:display_cracked_or_malfunctioning,condition,accepted,high,"[""R_DISPLAY_CRACK"", ""R_DISPLAY_CRACK_REUSE"", ""R_DISPLAY_CRACK_PARTS""]","[""R_DISPLAY_CRACK"", ""R_DISPLAY_CRACK_REUSE"", ""R_DISPLAY_CRACK_PARTS""]",False,REVIEWED_RULE
+raw_visual,32,9,config:display_powered_active,configuration,accepted,high,"[""R_DISPLAY_ACTIVE"", ""R_DISPLAY_ACTIVE_REUSE""]","[""R_DISPLAY_ACTIVE"", ""R_DISPLAY_ACTIVE_REUSE""]",False,REVIEWED_RULE
+raw_visual,33,10,component:battery_flat_small_device_pack,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,34,10,component:battery_large_terminal_rectangular,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,35,10,component:battery_consumer_cells,component_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,36,10,component:battery_laptop_pack,component_subtype,accepted,medium-high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,37,10,component:battery_laptop_pack,component_subtype,accepted,medium,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,38,11,acquisition:front_load_washer_clean_product,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,39,11,acquisition:front_load_washer_in_situ,acquisition_style,nuisance_context,high,[],[],True,NUISANCE_EXACT_ZERO
+raw_visual,40,12,form:crt_woodgrain_side_control_cabinet,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,41,12,form:crt_compact_plastic_cabinet,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,42,13,subtype:audio_boombox_radio_cd,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,43,13,subtype:audio_hifi_component_deck,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,44,13,subtype:audio_personal_cd_player,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,45,14,subtype:turntable_standalone_or_portable,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,46,14,subtype:turntable_integrated_console,device_subtype,accepted,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK
+raw_visual,47,15,device:top_loading_or_semi_automatic_washing_machine,device_family,accepted_broad_only,high,[],[],False,NO_DEFENSIBLE_DOWNSTREAM_LINK

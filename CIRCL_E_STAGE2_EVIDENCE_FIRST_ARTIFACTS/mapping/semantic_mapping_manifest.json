@@ -1,0 +1,40 @@
+{
+  "mapping_version": "stage2-semantic-mapping-v3",
+  "notebook_revision": "semantic-mapping-2026-09-28",
+  "created_utc": "2026-09-28T00:13:00Z",
+  "source_discovery_pipeline": "final-imageonly-discovery-final-story-2026-09-23",
+  "source_discovery_zip_sha256": "92941e821f208a83845da9026a7d4f38b1cd56d9e28935798a31152a47ac47ab",
+  "source_discovery_freeze_sha256": "65475bf8b58a0cf61869f051da9634de9a0967f910778b116bb0030dc8ec3f9b",
+  "source_cohort_fp": "a18ed47ab3b89c6f3bdad77cc6f565f9abcf023b5d945ef9549af3a9ac5a0b12",
+  "source_feature_fp": "57b28f1a4732f75d400eb7159be3e51f586ebba2d3445eb059e6ce8248f4acd3",
+  "semantic_source": "reviewed semantic decisions encoded in the final semantic registry",
+  "numerical_memberships_changed": false,
+  "communication_only_views": [
+    "frozen_pca2",
+    "tsne2",
+    "parent_centroid_hierarchy",
+    "parent_centroid_similarity_matrix"
+  ],
+  "counts": {
+    "parents": 16,
+    "validated_fine_groups": 28,
+    "raw_visual_leaves": 48,
+    "global_ica_candidates": 16,
+    "family_ica_candidates": 24,
+    "patch_families": 16,
+    "canonical_images": 3793,
+    "raw_images": 3961
+  },
+  "mapping_hashes": {
+    "factor_semantics.csv": "6b41960973b9d35fa6a46e93bd67b6ac1797b38e33d2434fd09b152dbc12582d",
+    "factor_semantics.json": "4a75261048a067df70e59b681f9eac1ccff957bba897c3b1c42b2336d8235dfb",
+    "patch_semantics.csv": "a8a7e52e30dd74eb66db67562893ebec953ccb33604bdcb4f58afdfd85b3551d",
+    "patch_semantics.json": "831e90e74bc4f012aa33f323fa5f8b1c16dd47282e82dfb64f049695c9302586",
+    "semantic_structure_map.csv": "88d07e206a09099e426f7a5bdbb485c9fbae95674dae417e4332c53400b185e8",
+    "semantic_structure_map.json": "6bf05021f85941aa2e2df6475b3edc86b5e58a71d461330e8613e39f4cf61947"
+  },
+  "ontology_hashes": {
+    "semantic_ontology.json": "2ed9f8493dd759ee010767ddfc4f7a6a7fcf92c05100ecb43035d92cc34c5b43",
+    "semantic_ontology.md": "8ee0b49c2bc41c3e49cd8c19d59a11f8b68a059a6a0b37095c027eb98939eeae"
+  }
+}

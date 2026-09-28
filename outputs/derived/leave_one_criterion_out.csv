@@ -1,0 +1,13 @@
+dimension,dropped_criterion,changed_images,newly_unresolved_images
+RRP,RRP_A_resource_relevance,2918,2918
+RRP,RRP_B_recovery_maturity,652,0
+RRP,RRP_C_feed_specificity,0,0
+WRO,WRO_A_product_reuse,642,642
+WRO,WRO_B_visual_integrity,399,399
+WRO,WRO_C_configuration_completeness,232,163
+CSO,CSO_A_component_salvage,3119,3119
+CSO,CSO_B_accessibility_dismantling,0,0
+CSO,CSO_C_component_specificity,3108,2967
+TPC,TPC_A_specialist_requirement,677,0
+TPC,TPC_B_separation_complexity,476,0
+TPC,TPC_C_screening_relevance,201,0

@@ -1,0 +1,17 @@
+scope,parent_id,factor_id,axis_name,semantic_confidence,reference_use_status,allowed_targets,rationale
+global,,1,Object integrity / presentation organization,medium,DESCRIPTIVE_ONLY,[],Frozen axis mixes condition with presentation organization; universal central use disabled.
+global,,11,Scene multiplicity / clutter,high,IRP_SORTING_ONLY,"[""IRP_C_visual_atypicality_inventory"", ""sorting_dismantling""]",High side is multi-object/cluttered scene; appropriate only for inventory/sorting diagnostics.
+global,,23,Enclosure visual styling,medium,DESCRIPTIVE_ONLY,[],Accepted styling attribute but no defensible resource/reuse/treatment linkage.
+family,2.0,1,PCB installed/handled/dirty versus clean isolated presentation,medium,SENSITIVITY_ONLY,"[""RRP_C_feed_specificity"", ""sorting_dismantling""]","PCB presentation is relevant to feed handling, but frozen confidence is medium."
+family,3.0,3,Mouse angularity / unconventional form,medium,DESCRIPTIVE_ONLY,[],Accepted visual attribute without a sufficiently direct downstream evidence link.
+family,5.0,0,Keyboard compactness / nonstandard form,medium,DESCRIPTIVE_ONLY,[],Accepted visual attribute without a sufficiently direct downstream evidence link.
+family,6.0,0,Laptop integrity / dismantling state,medium-high,ENABLED_PARENT_SPECIFIC,"[""WRO_B_visual_integrity"", ""CSO_B_accessibility_dismantling"", ""reuse_refurbish"", ""parts_harvest""]",Parent-specific integrity/dismantling axis is semantically cleaner than global factor 1.
+family,6.0,2,Laptop open/display-forward versus chassis-oriented configuration,medium,SENSITIVITY_ONLY,"[""CSO_B_accessibility_dismantling"", ""parts_harvest""]",Open/display-forward configuration is plausible access evidence; confidence medium.
+family,8.0,0,E-waste scene density / object identifiability,high,IRP_SORTING_ONLY,"[""IRP_C_visual_atypicality_inventory"", ""sorting_dismantling""]",Scene density/object identifiability is inventory/sorting evidence.
+family,8.0,1,E-waste scene scale / heap organization,medium,DESCRIPTIVE_ONLY,[],Accepted visual attribute without a sufficiently direct downstream evidence link.
+family,8.0,2,Display-rich versus heterogeneous e-waste composition,medium,DESCRIPTIVE_ONLY,[],Accepted visual attribute without a sufficiently direct downstream evidence link.
+family,8.0,4,Sorted/organized versus fragmented mixed scrap,medium,SENSITIVITY_ONLY,"[""sorting_dismantling""]",Sorted versus fragmented scene can refine sorting affinity only.
+family,10.0,1,Elongated laptop-battery-pack morphology,medium-high,DESCRIPTIVE_ONLY_CHEMISTRY_FIREWALL,[],Battery morphology does not establish chemistry or chemistry-dependent resource profile.
+family,10.0,2,Compact flat pack versus long/cylindrical/rail forms,medium,DESCRIPTIVE_ONLY_CHEMISTRY_FIREWALL,[],Battery morphology does not establish chemistry or chemistry-dependent resource profile.
+family,10.0,3,Prismatic pack versus cylindrical/rail battery morphology,medium-high,DESCRIPTIVE_ONLY_CHEMISTRY_FIREWALL,[],Battery morphology does not establish chemistry or chemistry-dependent resource profile.
+family,14.0,1,Integrated cabinet versus standalone turntable styling,medium,SENSITIVITY_ONLY,"[""TPC_B_separation_complexity"", ""parts_harvest""]",Integrated cabinet can alter access/disassembly; confidence medium.

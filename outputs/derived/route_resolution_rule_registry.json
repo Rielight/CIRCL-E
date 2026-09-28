@@ -1,0 +1,43 @@
+[
+  {
+    "rule_id":"ROUTE_UNKNOWN_CLEAR_PRODUCT_SPECIFIC",
+    "condition":"discovery_status == unknown_mixed",
+    "target_routes":[
+      "reuse_refurbish",
+      "parts_harvest",
+      "bulk_material_recovery",
+      "specialist_pcb",
+      "battery_specialist",
+      "crt_specialist"
+    ],
+    "action":"SET_UNRESOLVED",
+    "level":null,
+    "origin":"MODEL_RULE",
+    "priority":10,
+    "rationale":"Unresolved heterogeneous assignment cannot support product-specific routing."
+  },
+  {
+    "rule_id":"ROUTE_UNKNOWN_SORTING",
+    "condition":"discovery_status == unknown_mixed",
+    "target_routes":[
+      "sorting_dismantling"
+    ],
+    "action":"SET_LEVEL",
+    "level":4.0,
+    "origin":"MODEL_RULE",
+    "priority":20,
+    "rationale":"Unresolved heterogeneous visual assignment requires sorting\/identification before product-specific routing."
+  },
+  {
+    "rule_id":"ROUTE_UNKNOWN_RESIDUAL",
+    "condition":"discovery_status == unknown_mixed",
+    "target_routes":[
+      "residual_treatment"
+    ],
+    "action":"SET_LEVEL",
+    "level":3.0,
+    "origin":"MODEL_RULE",
+    "priority":20,
+    "rationale":"Residual-treatment compatibility remains a secondary diagnostic fallback for unresolved mixed material."
+  }
+]

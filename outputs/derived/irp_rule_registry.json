@@ -1,0 +1,146 @@
+[
+  {
+    "rule_id":"IRP_A_UNKNOWN",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"discovery_status == unknown_mixed",
+    "level":4,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Operational abstention requires identification\/resolution."
+  },
+  {
+    "rule_id":"IRP_A_PARENT_ONLY_LOW",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"parent-only + low relative support",
+    "level":4,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Only broad parent is reliable and support is weak."
+  },
+  {
+    "rule_id":"IRP_A_PARENT_ONLY_MED",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"parent-only + medium relative support",
+    "level":3,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Broad parent is usable but fine identity unresolved."
+  },
+  {
+    "rule_id":"IRP_A_PARENT_ONLY_HIGH",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"parent-only + high relative support",
+    "level":2,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Parent assignment is relatively strong but fine identity remains unresolved."
+  },
+  {
+    "rule_id":"IRP_A_FINE_LOW",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"reliable parent+fine + low relative support",
+    "level":3,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Fine identity exists but routing support is weak."
+  },
+  {
+    "rule_id":"IRP_A_FINE_MED",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"reliable parent+fine + medium relative support",
+    "level":2,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Operational identity is usable with moderate relative support."
+  },
+  {
+    "rule_id":"IRP_A_FINE_HIGH",
+    "criterion":"IRP_A_assignment_resolution",
+    "condition":"reliable parent+fine + high relative support",
+    "level":1,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Operational identity is strong relative to its frozen parent cohort."
+  },
+  {
+    "rule_id":"IRP_B_RESIDUAL_SCENE",
+    "criterion":"IRP_B_semantic_evidence_resolution",
+    "condition":"parent in {residual,mixed scene}",
+    "level":4,
+    "origin":"FROZEN_SEMANTIC+MODEL_RULE",
+    "rationale":"No single item-level semantic\/evidence profile is defensible."
+  },
+  {
+    "rule_id":"IRP_B_MANDATORY_UNRESOLVED",
+    "criterion":"IRP_B_semantic_evidence_resolution",
+    "condition":"mandatory primary anchor unresolved",
+    "level":3,
+    "origin":"EVIDENCE_MAP+MODEL_RULE",
+    "rationale":"A mandatory criterion cannot be grounded; additional identification\/testing is valuable."
+  },
+  {
+    "rule_id":"IRP_B_HIGH_TRANSFER",
+    "criterion":"IRP_B_semantic_evidence_resolution",
+    "condition":">=50% inherent class anchors HIGH transfer risk",
+    "level":3,
+    "origin":"EVIDENCE_MAP+MODEL_RULE",
+    "rationale":"External evidence transfer is broad\/weak for much of the class profile."
+  },
+  {
+    "rule_id":"IRP_B_MODEL_RATIONALE",
+    "criterion":"IRP_B_semantic_evidence_resolution",
+    "condition":">=50% inherent class anchors MODEL_RATIONALE",
+    "level":3,
+    "origin":"EVIDENCE_MAP+MODEL_RULE",
+    "rationale":"Profile is substantially rationale-driven rather than externally anchored."
+  },
+  {
+    "rule_id":"IRP_B_MIXED",
+    "criterion":"IRP_B_semantic_evidence_resolution",
+    "condition":"some HIGH transfer risk or MODEL_RATIONALE",
+    "level":2,
+    "origin":"EVIDENCE_MAP+MODEL_RULE",
+    "rationale":"Some semantic\/evidence ambiguity remains."
+  },
+  {
+    "rule_id":"IRP_B_STRONG",
+    "criterion":"IRP_B_semantic_evidence_resolution",
+    "condition":"otherwise",
+    "level":1,
+    "origin":"EVIDENCE_MAP+MODEL_RULE",
+    "rationale":"Class-level evidence applicability is comparatively well resolved."
+  },
+  {
+    "rule_id":"IRP_C_Q1",
+    "criterion":"IRP_C_visual_atypicality_inventory",
+    "condition":"within-parent patch quartile Q1",
+    "level":1,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Low relative local atypicality."
+  },
+  {
+    "rule_id":"IRP_C_Q2",
+    "criterion":"IRP_C_visual_atypicality_inventory",
+    "condition":"within-parent patch quartile Q2",
+    "level":2,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Moderate-low relative local atypicality."
+  },
+  {
+    "rule_id":"IRP_C_Q3",
+    "criterion":"IRP_C_visual_atypicality_inventory",
+    "condition":"within-parent patch quartile Q3",
+    "level":3,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"Moderate-high relative local atypicality."
+  },
+  {
+    "rule_id":"IRP_C_Q4",
+    "criterion":"IRP_C_visual_atypicality_inventory",
+    "condition":"within-parent patch quartile Q4",
+    "level":4,
+    "origin":"FROZEN_NUMERIC+MODEL_RULE",
+    "rationale":"High relative local atypicality; inspection is useful."
+  },
+  {
+    "rule_id":"IRP_C_CLUTTER",
+    "criterion":"IRP_C_visual_atypicality_inventory",
+    "condition":"accepted global clutter state STRONG_HIGH",
+    "level":3,
+    "origin":"FROZEN_SEMANTIC+MODEL_RULE",
+    "rationale":"Multi-object clutter increases inventory\/sorting resolution need."
+  }
+]

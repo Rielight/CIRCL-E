@@ -1,0 +1,17 @@
+stage,dimension,changed_images_vs_parent,resolved_images
+parent,RRP,0,2918
+parent,WRO,0,0
+parent,CSO,0,3119
+parent,TPC,0,3119
+fine,RRP,0,2918
+fine,WRO,547,547
+fine,CSO,0,3119
+fine,TPC,0,3119
+raw_visual,RRP,0,2918
+raw_visual,WRO,641,641
+raw_visual,CSO,0,3119
+raw_visual,TPC,0,3119
+full_identity,RRP,0,2918
+full_identity,WRO,642,642
+full_identity,CSO,0,3119
+full_identity,TPC,0,3119

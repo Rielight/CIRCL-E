@@ -1,0 +1,16 @@
+score_dimension,criterion_id,criterion_name,validity_role,meaning,ordinal_scale
+RRP,RRP_A_resource_relevance,Resource concentration / relevance,MANDATORY,Resource significance of the class/feed; chemistry-dependent when chemistry matters.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+RRP,RRP_B_recovery_maturity,Recovery pathway maturity,AT_LEAST_ONE_OF_BC,Existence/maturity of appropriate recovery pathways.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+RRP,RRP_C_feed_specificity,Feed specificity / separability,AT_LEAST_ONE_OF_BC,How specific/concentrated the visible/semantic feed is for recovery.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+WRO,WRO_A_product_reuse,Product reuse relevance,MANDATORY,Class-level relevance of whole-device reuse/refurbishment; never functionality probability.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+WRO,WRO_B_visual_integrity,Visible whole-device integrity,IMAGE_STATE,Image-derived integrity/condition only.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+WRO,WRO_C_configuration_completeness,Visible completeness / configuration compatibility,IMAGE_STATE,Image-derived completeness/configuration compatible with whole-device second life.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+CSO,CSO_A_component_salvage,Component salvage relevance,MANDATORY,Class-level relevance of reusable/salvageable parts or modules.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+CSO,CSO_B_accessibility_dismantling,Component accessibility / dismantling state,IMAGE_STATE_OPTIONAL,Exposed/open/dismantled state affecting access to parts.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+CSO,CSO_C_component_specificity,Identifiable component / subassembly opportunity,MANDATORY_SECONDARY,How strongly the class presents identifiable components/subassemblies.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+TPC,TPC_A_specialist_requirement,Specialist-treatment requirement,TWO_OF_THREE,Need for specialist processing/handling.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+TPC,TPC_B_separation_complexity,Separation / disassembly complexity,TWO_OF_THREE,Structural/material separation burden.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+TPC,TPC_C_screening_relevance,Safety / regulatory-screen relevance,TWO_OF_THREE,Need for controlled handling or regulatory screening; not legal status.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+IRP,IRP_A_assignment_resolution,Assignment resolution need,MAX_RULE,Frozen operational assignment/support diagnostic.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+IRP,IRP_B_semantic_evidence_resolution,Semantic/evidence resolution need,MAX_RULE,Evidence-transfer and mandatory-anchor ambiguity diagnostic.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED
+IRP,IRP_C_visual_atypicality_inventory,Visual atypicality / inventory complexity,MAX_RULE,Within-parent patch atypicality and clutter/scene diagnostic.,1 LOW · 2 MODERATE-LOW · 3 MODERATE-HIGH · 4 HIGH · UNRESOLVED

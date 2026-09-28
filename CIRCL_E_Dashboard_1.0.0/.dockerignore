@@ -1,0 +1,24 @@
+# Build context exclusions for the CIRCL-E Dashboard image.
+**/.git
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/*.log
+**/*.zip
+**/*.tar.gz
+**/.env
+.env
+**/dist
+**/tests
+**/reports
+**/offline
+**/retraining
+**/source_inputs
+**/external_data
+**/docs
+**/*.ipynb
+**/*.md
+!README.md
+**/SHA256SUMS

@@ -1,0 +1,19 @@
+rule_id,criterion,condition,level,origin,rationale
+IRP_A_UNKNOWN,IRP_A_assignment_resolution,discovery_status == unknown_mixed,4,FROZEN_NUMERIC+MODEL_RULE,Operational abstention requires identification/resolution.
+IRP_A_PARENT_ONLY_LOW,IRP_A_assignment_resolution,parent-only + low relative support,4,FROZEN_NUMERIC+MODEL_RULE,Only broad parent is reliable and support is weak.
+IRP_A_PARENT_ONLY_MED,IRP_A_assignment_resolution,parent-only + medium relative support,3,FROZEN_NUMERIC+MODEL_RULE,Broad parent is usable but fine identity unresolved.
+IRP_A_PARENT_ONLY_HIGH,IRP_A_assignment_resolution,parent-only + high relative support,2,FROZEN_NUMERIC+MODEL_RULE,Parent assignment is relatively strong but fine identity remains unresolved.
+IRP_A_FINE_LOW,IRP_A_assignment_resolution,reliable parent+fine + low relative support,3,FROZEN_NUMERIC+MODEL_RULE,Fine identity exists but routing support is weak.
+IRP_A_FINE_MED,IRP_A_assignment_resolution,reliable parent+fine + medium relative support,2,FROZEN_NUMERIC+MODEL_RULE,Operational identity is usable with moderate relative support.
+IRP_A_FINE_HIGH,IRP_A_assignment_resolution,reliable parent+fine + high relative support,1,FROZEN_NUMERIC+MODEL_RULE,Operational identity is strong relative to its frozen parent cohort.
+IRP_B_RESIDUAL_SCENE,IRP_B_semantic_evidence_resolution,"parent in {residual,mixed scene}",4,FROZEN_SEMANTIC+MODEL_RULE,No single item-level semantic/evidence profile is defensible.
+IRP_B_MANDATORY_UNRESOLVED,IRP_B_semantic_evidence_resolution,mandatory primary anchor unresolved,3,EVIDENCE_MAP+MODEL_RULE,A mandatory criterion cannot be grounded; additional identification/testing is valuable.
+IRP_B_HIGH_TRANSFER,IRP_B_semantic_evidence_resolution,>=50% inherent class anchors HIGH transfer risk,3,EVIDENCE_MAP+MODEL_RULE,External evidence transfer is broad/weak for much of the class profile.
+IRP_B_MODEL_RATIONALE,IRP_B_semantic_evidence_resolution,>=50% inherent class anchors MODEL_RATIONALE,3,EVIDENCE_MAP+MODEL_RULE,Profile is substantially rationale-driven rather than externally anchored.
+IRP_B_MIXED,IRP_B_semantic_evidence_resolution,some HIGH transfer risk or MODEL_RATIONALE,2,EVIDENCE_MAP+MODEL_RULE,Some semantic/evidence ambiguity remains.
+IRP_B_STRONG,IRP_B_semantic_evidence_resolution,otherwise,1,EVIDENCE_MAP+MODEL_RULE,Class-level evidence applicability is comparatively well resolved.
+IRP_C_Q1,IRP_C_visual_atypicality_inventory,within-parent patch quartile Q1,1,FROZEN_NUMERIC+MODEL_RULE,Low relative local atypicality.
+IRP_C_Q2,IRP_C_visual_atypicality_inventory,within-parent patch quartile Q2,2,FROZEN_NUMERIC+MODEL_RULE,Moderate-low relative local atypicality.
+IRP_C_Q3,IRP_C_visual_atypicality_inventory,within-parent patch quartile Q3,3,FROZEN_NUMERIC+MODEL_RULE,Moderate-high relative local atypicality.
+IRP_C_Q4,IRP_C_visual_atypicality_inventory,within-parent patch quartile Q4,4,FROZEN_NUMERIC+MODEL_RULE,High relative local atypicality; inspection is useful.
+IRP_C_CLUTTER,IRP_C_visual_atypicality_inventory,accepted global clutter state STRONG_HIGH,3,FROZEN_SEMANTIC+MODEL_RULE,Multi-object clutter increases inventory/sorting resolution need.

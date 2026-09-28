@@ -1,0 +1,4 @@
+rule_id,condition,target_routes,action,level,origin,priority,rationale
+ROUTE_UNKNOWN_CLEAR_PRODUCT_SPECIFIC,discovery_status == unknown_mixed,"[""reuse_refurbish"", ""parts_harvest"", ""bulk_material_recovery"", ""specialist_pcb"", ""battery_specialist"", ""crt_specialist""]",SET_UNRESOLVED,,MODEL_RULE,10,Unresolved heterogeneous assignment cannot support product-specific routing.
+ROUTE_UNKNOWN_SORTING,discovery_status == unknown_mixed,"[""sorting_dismantling""]",SET_LEVEL,4.0,MODEL_RULE,20,Unresolved heterogeneous visual assignment requires sorting/identification before product-specific routing.
+ROUTE_UNKNOWN_RESIDUAL,discovery_status == unknown_mixed,"[""residual_treatment""]",SET_LEVEL,3.0,MODEL_RULE,20,Residual-treatment compatibility remains a secondary diagnostic fallback for unresolved mixed material.

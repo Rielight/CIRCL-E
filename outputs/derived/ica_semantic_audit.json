@@ -1,0 +1,202 @@
+[
+  {
+    "scope":"global",
+    "parent_id":null,
+    "factor_id":1,
+    "axis_name":"Object integrity \/ presentation organization",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Frozen axis mixes condition with presentation organization; universal central use disabled."
+  },
+  {
+    "scope":"global",
+    "parent_id":null,
+    "factor_id":11,
+    "axis_name":"Scene multiplicity \/ clutter",
+    "semantic_confidence":"high",
+    "reference_use_status":"IRP_SORTING_ONLY",
+    "allowed_targets":[
+      "IRP_C_visual_atypicality_inventory",
+      "sorting_dismantling"
+    ],
+    "rationale":"High side is multi-object\/cluttered scene; appropriate only for inventory\/sorting diagnostics."
+  },
+  {
+    "scope":"global",
+    "parent_id":null,
+    "factor_id":23,
+    "axis_name":"Enclosure visual styling",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Accepted styling attribute but no defensible resource\/reuse\/treatment linkage."
+  },
+  {
+    "scope":"family",
+    "parent_id":2.0,
+    "factor_id":1,
+    "axis_name":"PCB installed\/handled\/dirty versus clean isolated presentation",
+    "semantic_confidence":"medium",
+    "reference_use_status":"SENSITIVITY_ONLY",
+    "allowed_targets":[
+      "RRP_C_feed_specificity",
+      "sorting_dismantling"
+    ],
+    "rationale":"PCB presentation is relevant to feed handling, but frozen confidence is medium."
+  },
+  {
+    "scope":"family",
+    "parent_id":3.0,
+    "factor_id":3,
+    "axis_name":"Mouse angularity \/ unconventional form",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Accepted visual attribute without a sufficiently direct downstream evidence link."
+  },
+  {
+    "scope":"family",
+    "parent_id":5.0,
+    "factor_id":0,
+    "axis_name":"Keyboard compactness \/ nonstandard form",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Accepted visual attribute without a sufficiently direct downstream evidence link."
+  },
+  {
+    "scope":"family",
+    "parent_id":6.0,
+    "factor_id":0,
+    "axis_name":"Laptop integrity \/ dismantling state",
+    "semantic_confidence":"medium-high",
+    "reference_use_status":"ENABLED_PARENT_SPECIFIC",
+    "allowed_targets":[
+      "WRO_B_visual_integrity",
+      "CSO_B_accessibility_dismantling",
+      "reuse_refurbish",
+      "parts_harvest"
+    ],
+    "rationale":"Parent-specific integrity\/dismantling axis is semantically cleaner than global factor 1."
+  },
+  {
+    "scope":"family",
+    "parent_id":6.0,
+    "factor_id":2,
+    "axis_name":"Laptop open\/display-forward versus chassis-oriented configuration",
+    "semantic_confidence":"medium",
+    "reference_use_status":"SENSITIVITY_ONLY",
+    "allowed_targets":[
+      "CSO_B_accessibility_dismantling",
+      "parts_harvest"
+    ],
+    "rationale":"Open\/display-forward configuration is plausible access evidence; confidence medium."
+  },
+  {
+    "scope":"family",
+    "parent_id":8.0,
+    "factor_id":0,
+    "axis_name":"E-waste scene density \/ object identifiability",
+    "semantic_confidence":"high",
+    "reference_use_status":"IRP_SORTING_ONLY",
+    "allowed_targets":[
+      "IRP_C_visual_atypicality_inventory",
+      "sorting_dismantling"
+    ],
+    "rationale":"Scene density\/object identifiability is inventory\/sorting evidence."
+  },
+  {
+    "scope":"family",
+    "parent_id":8.0,
+    "factor_id":1,
+    "axis_name":"E-waste scene scale \/ heap organization",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Accepted visual attribute without a sufficiently direct downstream evidence link."
+  },
+  {
+    "scope":"family",
+    "parent_id":8.0,
+    "factor_id":2,
+    "axis_name":"Display-rich versus heterogeneous e-waste composition",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Accepted visual attribute without a sufficiently direct downstream evidence link."
+  },
+  {
+    "scope":"family",
+    "parent_id":8.0,
+    "factor_id":4,
+    "axis_name":"Sorted\/organized versus fragmented mixed scrap",
+    "semantic_confidence":"medium",
+    "reference_use_status":"SENSITIVITY_ONLY",
+    "allowed_targets":[
+      "sorting_dismantling"
+    ],
+    "rationale":"Sorted versus fragmented scene can refine sorting affinity only."
+  },
+  {
+    "scope":"family",
+    "parent_id":10.0,
+    "factor_id":1,
+    "axis_name":"Elongated laptop-battery-pack morphology",
+    "semantic_confidence":"medium-high",
+    "reference_use_status":"DESCRIPTIVE_ONLY_CHEMISTRY_FIREWALL",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Battery morphology does not establish chemistry or chemistry-dependent resource profile."
+  },
+  {
+    "scope":"family",
+    "parent_id":10.0,
+    "factor_id":2,
+    "axis_name":"Compact flat pack versus long\/cylindrical\/rail forms",
+    "semantic_confidence":"medium",
+    "reference_use_status":"DESCRIPTIVE_ONLY_CHEMISTRY_FIREWALL",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Battery morphology does not establish chemistry or chemistry-dependent resource profile."
+  },
+  {
+    "scope":"family",
+    "parent_id":10.0,
+    "factor_id":3,
+    "axis_name":"Prismatic pack versus cylindrical\/rail battery morphology",
+    "semantic_confidence":"medium-high",
+    "reference_use_status":"DESCRIPTIVE_ONLY_CHEMISTRY_FIREWALL",
+    "allowed_targets":[
+
+    ],
+    "rationale":"Battery morphology does not establish chemistry or chemistry-dependent resource profile."
+  },
+  {
+    "scope":"family",
+    "parent_id":14.0,
+    "factor_id":1,
+    "axis_name":"Integrated cabinet versus standalone turntable styling",
+    "semantic_confidence":"medium",
+    "reference_use_status":"SENSITIVITY_ONLY",
+    "allowed_targets":[
+      "TPC_B_separation_complexity",
+      "parts_harvest"
+    ],
+    "rationale":"Integrated cabinet can alter access\/disassembly; confidence medium."
+  }
+]

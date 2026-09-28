@@ -1,0 +1,72 @@
+# CIRCL-E normalized semantic ontology
+
+Raw discovery structures remain separate from normalized semantic concepts.
+
+## Broad concepts
+- P00 — **Mixed residual: heterogeneous small electronics / ambiguous devices and scenes** (`mixed_residual`, `mixed`)
+- P01 — **Smartphones / handheld mobile phones** (`device_family`, `accepted`)
+- P02 — **Printed circuit boards and electronic-board/components** (`component_family`, `accepted_broad_only`)
+- P03 — **Computer mice / pointing devices** (`device_family`, `accepted`)
+- P04 — **Printers / printing devices** (`device_family`, `accepted`)
+- P05 — **Computer keyboards** (`device_family`, `accepted`)
+- P06 — **Laptop / notebook computers** (`device_family`, `accepted`)
+- P07 — **Microwave ovens** (`device_family`, `accepted`)
+- P08 — **Mixed e-waste accumulation / scrapyard scenes** (`scene_context`, `accepted`)
+- P09 — **Flat-panel monitors / television displays** (`device_family`, `accepted_broad_only`)
+- P10 — **Batteries, cells and battery packs** (`component_family`, `accepted`)
+- P11 — **Front-loading washing machines** (`device_family`, `accepted`)
+- P12 — **CRT televisions / CRT displays** (`device_family`, `accepted`)
+- P13 — **Audio playback / stereo equipment** (`device_family`, `accepted_broad_only`)
+- P14 — **Turntables / record players** (`device_family`, `accepted`)
+- P15 — **Top-loading / semi-automatic washing machines** (`device_family`, `accepted`)
+
+## Normalized child concepts
+- `condition:phone_no_obvious_severe_screen_breakage` — Phone with no obvious severe screen breakage [condition]
+- `condition:phone_display_cracked_or_shattered` — Cracked / shattered-display phone [condition]
+- `component:pcb_logic_board_like` — Isolated PCB / logic-board-like board [component_subtype]
+- `component:pcb_discrete_component_or_power_control_like` — Discrete-component / power-control-like PCB morphology [component_subtype]
+- `config:bulk_pcb_collection` — Bulk PCB / motherboard pile [configuration]
+- `component:loose_ic_or_processor_package` — Loose IC / processor-style packages [component_subtype]
+- `form:mouse_contoured_dark_or_colored` — Varied dark/colored, more contoured mouse forms [device_subtype]
+- `form:mouse_light_smooth_rounded` — Light/silver, smooth rounded mouse forms [device_subtype]
+- `subtype:printer_consumer_inkjet_photo_aio_like` — Consumer inkjet/photo/all-in-one-printer-like form [device_subtype]
+- `subtype:printer_office_laser_mfp_like` — Laser/office/MFP-like printer form [device_subtype]
+- `config:laptop_open` — Open laptop [configuration]
+- `config:laptop_closed` — Closed / lid-down / stowed laptop [configuration]
+- `condition:laptop_dismantled_damaged_or_scrap` — Dismantled, damaged or laptop-scrap configuration [condition]
+- `scene:ewaste_object_scale_heap` — Object-scale mixed e-waste heap / collection [scene_context]
+- `scene:ewaste_large_outdoor_heap` — Large outdoor scrapyard / landfill-scale e-waste scene [scene_context]
+- `acquisition:display_in_situ` — Monitor/display photographed in an in-situ desk/room context [acquisition_style]
+- `acquisition:display_isolated_product_style` — Isolated/plain-background monitor product-style image [acquisition_style]
+- `component:battery_flat_small_device_pack` — Flat small-device / handset-style battery pack [component_subtype]
+- `component:battery_laptop_pack` — Long laptop battery pack [component_subtype]
+- `component:battery_large_terminal_rectangular` — Large terminal / lead-acid-like rectangular battery form [component_subtype]
+- `component:battery_consumer_cells` — Consumer replaceable cells, predominantly cylindrical [component_subtype]
+- `form:crt_woodgrain_side_control_cabinet` — Woodgrain/side-control/older-style CRT cabinet form [device_subtype]
+- `form:crt_compact_plastic_cabinet` — Compact plastic/darker CRT cabinet form [device_subtype]
+- `subtype:audio_boombox_radio_cd` — Portable boombox / radio-CD stereo [device_subtype]
+- `subtype:audio_personal_cd_player` — Personal portable CD-player form [device_subtype]
+- `subtype:audio_hifi_component_deck` — Hi-fi deck / component audio player [device_subtype]
+- `subtype:turntable_standalone_or_portable` — Standalone / portable open-deck turntable [device_subtype]
+- `subtype:turntable_integrated_console` — Integrated cabinet/console record-player form [device_subtype]
+- `residual:mixed_power_misc` — Mixed residual with mains/power-connection and miscellaneous-device core [mixed_residual]
+- `residual:handheld_like_subset` — Single handheld/mobile-device-like residual subset [ambiguous]
+- `scene:small_electronics_collection` — Pile/collection of mobile phones and small electronics [scene_context]
+- `scene:pcb_scrap_with_wires_debris` — PCB/electronic scrap mixed with wires/debris [scene_context]
+- `form:mouse_dark_contoured` — Dark/colored, contoured modern-consumer mouse appearance [device_subtype]
+- `acquisition:mouse_clean_isolated` — Clean isolated conventional mouse product-style imagery [acquisition_style]
+- `config:mouse_wired_context` — Wired mouse in desk/table context; cord salient [configuration]
+- `form:mouse_sculpted_ergonomic` — Sculpted/ergonomic/feature-rich mouse form [device_subtype]
+- `form:pointing_device_legacy_or_unusual` — Legacy/boxy/trackball-style or unusual pointing-device form [device_subtype]
+- `subtype:printer_special_purpose_like` — Special-purpose/impact/label/receipt-printer-like forms [device_subtype]
+- `scene:keyboard_desktop_setup` — Keyboard in desktop/desk setup [scene_context]
+- `form:keyboard_conventional_full_size` — Isolated conventional full-size keyboard [device_subtype]
+- `form:keyboard_compact_low_profile` — Compact/chiclet/low-profile keyboard form [device_subtype]
+- `acquisition:microwave_clean_catalog` — Clean isolated/catalog-like microwave presentation [acquisition_style]
+- `acquisition:microwave_in_situ` — In-situ/installed/used microwave presentation [acquisition_style]
+- `scene:display_room_installation` — Display/TV in room or installation context [scene_context]
+- `condition:display_cracked_or_malfunctioning` — Cracked, shattered or visibly malfunctioning display [condition]
+- `config:display_powered_active` — Powered/active display with visible image content [configuration]
+- `acquisition:front_load_washer_clean_product` — Clean/canonical front-load washer product presentation [acquisition_style]
+- `acquisition:front_load_washer_in_situ` — Varied/in-situ/used/colored or less canonical washer presentation [acquisition_style]
+- `device:top_loading_or_semi_automatic_washing_machine` — Parent-only singleton visual leaf: top-loading/semi-automatic washer family [device_family]
