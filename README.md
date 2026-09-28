@@ -1,90 +1,76 @@
 # CIRCL-E
 
-CIRCL-E menganalisis gambar e-waste melalui tiga tahap: menemukan pola visual yang berulang, memberi interpretasi semantik secara konservatif, lalu menerjemahkan bukti tersebut menjadi beberapa dimensi penilaian circular economy.
+CIRCL-E mengembangkan metode *clustering* dan pembentukan atribut visual untuk citra *e-waste* yang heterogen, kemudian memanfaatkan struktur visual yang ditemukan untuk memberikan saran pengolahan hanya berdasarkan citra. Pendekatan ini tidak mengasumsikan kategori, spesifikasi perangkat, atau kondisi objek di awal: kelompok objek ditemukan langsung dari data tanpa label, dan interpretasi semantik baru dilakukan setelah struktur numerik selesai dibentuk. Repositori ini adalah pendamping kode sumber untuk laporan penelitian Big Data Challenge 2026.
 
-Hasil akhirnya bukan prediksi fungsi perangkat atau tingkat bahaya. CIRCL-E menghasilkan profil ordinal yang dapat ditelusuri ke keputusan semantik, literatur yang digunakan, atau aturan model yang terdokumentasi.
+## Dataset dan masalah penelitian
 
-## Latar belakang
+Data berasal dari dataset utama Big Data Challenge 2026 yang memuat citra sampah dalam tiga kelas: *recyclable*, *electronic*, dan *organic*. Analisis dikhususkan untuk mengeksplorasi karakteristik visual dan pengelompokan citra limbah elektronik. Dataset ini memiliki 3.961 citra sampah elektronik, yang dikurasi menjadi 3.793 citra setelah duplikasi dideteksi menggunakan *dHash* dan *pHash*. Sebanyak 3.793 citra hasil kurasi inilah yang menjadi unit analisis CIRCL-E.
 
-Pengelompokan dan penilaian e-waste dari foto memerlukan pendekatan yang sistematis dan dapat ditelusuri sumber evidensinya. Tahap Discovery tidak menggunakan label kelas per gambar sebagai input clustering. Tahap Semantic Mapping memberi interpretasi konservatif pada struktur yang dihasilkan; setiap keputusan dicatat beserta asal-usulnya. Tahap Post-Mapping memetakan interpretasi tersebut ke profil ordinal yang dapat dikuantifikasi ketergantungannya terhadap sumber tertentu.
+Citra *e-waste* di lapangan berasal dari beragam sumber tanpa label spesifik dan rentan terdistorsi oleh karakteristik pengambilan gambar. Penelitian ini merumuskan tiga pertanyaan:
 
-## Pipeline tiga tahap
+1. Bagaimana menyusun metode *clustering* dan pembentukan atribut berbasis karakteristik citra *e-waste* yang tahan terhadap struktur heterogen serta variasi latar belakang?
+2. Bagaimana mengevaluasi klaster yang terbentuk sehingga memastikan bahwa struktur klaster merepresentasikan karakteristik visual objek *e-waste*?
+3. Bagaimana memanfaatkan klaster dan karakteristik visual yang ditemukan untuk memberikan saran pengolahan *e-waste* hanya berdasarkan citra?
 
-```text
-[Tahap 1 — Discovery]         01_CIRCL_E_Discovery.ipynb
-  Menyusun struktur visual dari 3.793 gambar kanonik (dari 3.961 raw images)
-  menjadi 16 parent group dan 48 raw visual leaf; memvalidasi 28 fine group.
-        ↓  CIRCL_E_Discovery_Handoff.zip
-[Tahap 2 — Semantic Mapping]  02_CIRCL_E_Semantic_Mapping.ipynb
-  Memberi label semantik pada struktur Tahap 1 melalui registry tertulis:
-  label, peran, status operasional, confidence, dan rationale tiap struktur.
-        ↓  CIRCL_E_Semantic_Mapping_Handoff.zip
-[Tahap 3 — Post-Mapping]      03_CIRCL_E_Post_Mapping.ipynb
-  Memetakan setiap gambar kanonik ke profil ordinal menggunakan 192 criterion
-  anchor dan 128 route anchor.
-        ↓  outputs/  (figures/, derived/, report/)
-```
+Secara praktis, metode ini ditujukan untuk membantu tahap awal penerimaan dan pemilahan *e-waste* ketika informasi tentang objek masih terbatas.
 
-Setiap keputusan di registry mencatat asal-usulnya: `FROZEN_SEMANTIC` (semantik yang ditetapkan saat Tahap 2), `LITERATURE_SYNTHESIS` (dari literatur), atau `MODEL_RATIONALE` (aturan model yang eksplisit).
+## Cara kerja metode
 
-Gambar kanonik adalah unit citra setelah canonicalization/deduplication input; bukan centroid sintetis atau prototipe cluster.
+Representasi visual diekstraksi menggunakan dua *backbone* ViT pralatih, C-RADIOv4 dan DINOv3. C-RADIO memberikan representasi global yang menangkap karakteristik semantik keseluruhan citra, sedangkan token spasial DINOv3 membentuk representasi lokal yang menangkap detail tekstur dan morfologi pada bagian objek.
 
-## Dimensi output
+Wilayah *foreground* diestimasi secara *unsupervised* dari token *patch* DINOv3, sehingga objek utama terisolasi dari latar belakang sebelum representasi lanjutan dibentuk. Setiap citra memperoleh representasi pada tampilan utuh maupun hasil pemotongan *foreground*, pada tingkat global maupun lokal. Fitur akuisisi (gaya latar belakang, kecerahan, ketajaman, dan statistik pengambilan gambar) tidak menjadi masukan pembentukan klaster; fitur ini dipakai untuk mengaudit korelasi hasil *clustering* dengan kondisi pengambilan gambar.
 
-Tahap 3 menghasilkan lima dimensi ordinal untuk setiap gambar:
+Struktur klaster dibentuk secara bertingkat:
 
-- **RRP** (*Resource Recovery Potential*) — relevansi pemulihan material atau komponen, berdasarkan kriteria yang berbasis literatur.
-- **WRO** (*Whole-device Reuse Opportunity*) — penilaian visual peluang reuse perangkat-utuh; mensyaratkan bukti integritas dan konfigurasi yang lebih ketat dari RRP.
-- **CSO** (*Component Salvage Opportunity*) — relevansi pemulihan komponen individual.
-- **TPC** (*Treatment Complexity/Priority*) — kompleksitas penanganan atau prioritas.
-- **IRP** (*Relative Inspection/Resolution Priority*) — prioritas inspeksi relatif dalam satu parent group; dimensi komparatif, bukan hitungan tunggal.
+- **Klaster induk** — kelompok objek secara umum, dibentuk dengan K-means (K=16) pada representasi global *foreground*. Kandidat algoritma dan konfigurasi lain disaring melalui gerbang kelayakan, dan partisi final dipilih yang keanggotaannya paling sulit ditebak dari fitur akuisisi.
+- **Subklaster visual tervalidasi** — subkelompok di dalam klaster induk yang lolos uji individual (resampling, *withholding*, dan korespondensi lintas pandang). Istilah "tervalidasi" menunjukkan reproduktibilitas struktur numeriknya.
+- **Daun visual** (*raw visual*) — subkelompok komplementer beresolusi tinggi yang menoleransi variasi pose dan wujud fisik.
 
-Ditambah: kompatibilitas rute penanganan (ordinal affinity, bukan rekomendasi).
-
-Semua nilai adalah ordinal. Tidak ada yang merupakan probabilitas, rasio, atau skor akurasi.
+Di luar struktur diskret, **atribut visual kontinu** diekstraksi melalui *Independent Component Analysis* (ICA) atas residu histogram konsep visual untuk menangkap variasi yang belum terepresentasi oleh keanggotaan klaster. Interpretasi semantik dilakukan secara manual setelah struktur numerik dibekukan, berdasarkan citra representatif dan metrik pendukung. Terakhir, label semantik dipadukan dengan bukti literatur pengelolaan limbah elektronik untuk membentuk profil saran pengolahan.
 
 ## Temuan utama
 
-| Metrik | Nilai |
-|--------|-------|
-| Gambar kanonik | 3.793 |
-| Parent group | 16 |
-| Fine group tervalidasi | 28 |
-| Raw visual leaf deskriptif | 48 |
-| Abstention unknown/mixed | 454 |
-| RRP resolved | 2.918 / 3.793 |
-| WRO resolved | 642 / 3.793 |
-| CSO / TPC resolved | 3.119 / 3.793 |
-| Internal scientific/integrity checks | **74/74 passed** |
+Ketahanan struktur klaster dievaluasi dari dua sisi:
 
-WRO yang lebih rendah dari CSO bukan anomali — ini disengaja. WRO beroperasi pada level perangkat-utuh dan mensyaratkan bukti visual konfigurasi yang eksplisit; komponen seperti PCB tidak diberi status reuse perangkat-utuh. Laptop dalam kondisi terbongkar, misalnya, dapat memiliki WRO rendah sekaligus CSO yang lebih tinggi karena komponennya terekspos.
+- **Kontrol negatif latar belakang.** Pengelompokan ulang hanya dari fitur latar belakang menghasilkan ARI 0,096 terhadap partisi induk final — struktur klaster tidak dapat direproduksi dari informasi latar belakang semata.
+- **Degradasi visual terkendali.** Enam degradasi pada 160 citra menghasilkan proporsi penugasan yang tetap 0,963–0,994 pada klaster induk dan 0,962–1,000 pada subklaster visual tervalidasi.
 
-Dalam source-ablation analysis, menghilangkan E001 — UNITAR SCYCLE *E-waste Statistics Guidelines* (2026, DOI: [10.5281/zenodo.18328494](https://doi.org/10.5281/zenodo.18328494)) — membuat 2.113 dari 2.918 profil RRP yang sebelumnya resolved menjadi unresolved (72,4%). Hasil ini menunjukkan ketergantungan pada cakupan evidensi, bukan akurasi model. Penjelasan lengkap di [docs/results.md](docs/results.md).
+Struktur akhir:
 
-## Contoh: bagaimana bukti visual mengubah profil
+| Struktur | Jumlah | Coverage | ARI_g |
+|---|---|---|---|
+| Klaster induk (K-means, K=16) | 16 | 1,000 | 0,954 |
+| Subklaster visual tervalidasi | 28 | 0,653 | 0,981 |
+| Daun visual | 48 | 1,000 | 0,961 |
 
-Empat contoh berikut diambil langsung dari `outputs/derived/semantic_transition_registry.csv`. Semua penilaian didasarkan pada tampilan visual, bukan klaim tentang apakah perangkat berfungsi atau layak diperbaiki.
-
-| Apa yang terlihat | Apa yang berubah di profil | Catatan interpretasi |
-|-------------------|---------------------------|----------------------|
-| Smartphone dengan layar retak | WRO turun (integritas visual perangkat-utuh rendah); kompatibilitas parts harvest naik | Keretakan layar adalah bukti kondisi visual — bukan bukti kerusakan permanen atau prediksi nilai komponen |
-| Laptop dalam kondisi terbongkar | WRO turun (konfigurasi tidak utuh); CSO naik (komponen terekspos); kompleksitas pemilahan naik | Nilai CSO yang lebih tinggi mencerminkan aksesibilitas visual komponen, bukan kepastian bahwa komponen dapat dipulihkan |
-| IC/prosesor lepas | Spesifisitas feed RRP naik; spesifisitas komponen CSO naik; kompatibilitas rute specialist e-scrap naik | Berdasarkan synthesis literatur; bukan pengukuran komposisi material |
-| Display yang terlihat aktif/menyala | WRO naik (presentasi visual positif) | Tampilan aktif adalah bukti presentasi visual — **bukan probabilitas bahwa perangkat berfungsi** |
-
-## Arsitektur pipeline
+Dari 16 klaster induk, 12 memperoleh status operasional penuh dan dapat digunakan sebagai dasar penyusunan saran pengolahan. Rincian status tiap klaster, hasil atribut kontinu, dan metrik lengkap tersedia di [docs/results.md](docs/results.md).
 
 ![Arsitektur CIRCL-E](outputs/figures/01_evidence_to_profile_architecture.png)
 
-## Contoh profil CIRCL-E
+## Dimensi saran pengolahan
+
+Label semantik dipadukan dengan bukti literatur dan lembaga terkait pengelolaan limbah elektronik untuk membentuk empat dimensi pendukung keputusan, masing-masing pada skala diskret 1–4:
+
+- **RRP** (*Resource Recovery Potential*) — potensi pemulihan sumber daya: relevansi pemulihan material atau komponen.
+- **WRO** (*Whole-device Reuse Opportunity*) — peluang penggunaan kembali perangkat secara utuh.
+- **CSO** (*Component Salvage Opportunity*) — peluang penyelamatan komponen.
+- **TPC** (*Treatment Complexity/Priority*) — kompleksitas atau kebutuhan penanganan khusus.
+
+Profil dibentuk secara hierarkis: nilai acuan tiap kriteria pada tingkat klaster induk ditentukan dari bukti eksternal, kemudian disempurnakan oleh subkelompok visual tervalidasi, daun visual, dan atribut kontinu ICA apabila peran semantiknya relevan. Sebuah dimensi dapat tidak menghasilkan nilai apabila bukti yang tersedia belum mencukupi. Seluruh nilai bersifat ordinal — bukan probabilitas, rasio, atau skor akurasi.
+
+## Contoh: kondisi visual menyempurnakan peluang reuse
+
+Pada klaster induk telepon pintar, WRO memperoleh nilai acuan 4 (tinggi) berdasarkan literatur. Pada penyempurnaan berbasis kondisi visual, 263 citra tanpa kerusakan layar berat memperoleh WRO level 3, sedangkan 89 citra dengan layar retak/pecah memperoleh level 1.
+
+Contoh ini menunjukkan bahwa kondisi fisik yang terlihat dapat menyempurnakan peluang penggunaan kembali perangkat. Nilai tersebut didasarkan pada kondisi visual saat citra diambil, bukan kepastian bahwa perangkat berfungsi atau layak diperbaiki.
 
 ![Contoh profil CIRCL-E](outputs/figures/07_representative_profile_cards.png)
 
-## Dashboard inferensi lokal
+## Dashboard
 
-`CIRCL_E_Dashboard_1.0.0/` menyediakan aplikasi Streamlit untuk inferensi pada gambar baru. Inferensi sepenuhnya lokal; tidak memerlukan akses internet saat berjalan. Backbone DINOv3 dan C-RADIOv4 harus tersedia di direktori lokal — tidak disertakan dalam paket.
+`CIRCL_E_Dashboard_1.0.0/` menyediakan aplikasi Streamlit untuk inferensi pada gambar baru. Aplikasi berjalan sepenuhnya secara lokal dan tidak memerlukan akses internet saat digunakan; *backbone* DINOv3 dan C-RADIOv4 disediakan terpisah pada direktori lokal.
 
-Lihat [CIRCL_E_Dashboard_1.0.0/README.md](CIRCL_E_Dashboard_1.0.0/README.md) untuk petunjuk instalasi lengkap (Docker atau Python lokal).
+Catatan distribusi: checkout Git publik hanya memuat kode sumber dan konfigurasi dashboard. Direktori `runtime/release/` sengaja tidak disertakan di Git, sedangkan `Dockerfile` mengharapkannya — checkout Git tanpa aset runtime bukan distribusi dashboard yang dapat langsung dijalankan. Paket lengkap `CIRCL_E_Dashboard_1.0.0.zip` dimaksudkan didistribusikan sebagai aset GitHub Release; setelah rilis v1.0.0 terbit, gunakan paket tersebut untuk runtime yang lengkap. Lihat [docs/deployment.md](docs/deployment.md).
 
 ## Struktur repositori
 
@@ -93,28 +79,29 @@ CIRCL-E/
 ├── 01_CIRCL_E_Discovery.ipynb
 ├── 02_CIRCL_E_Semantic_Mapping.ipynb
 ├── 03_CIRCL_E_Post_Mapping.ipynb
-├── CIRCL_E_STAGE2_EVIDENCE_FIRST_ARTIFACTS/   # artefak Tahap 2 (di-track Git)
-├── CIRCL_E_Dashboard_1.0.0/                   # source + bundle dashboard
-├── outputs/                                   # hasil Tahap 3 (di-track Git)
-│   ├── derived/    # CSV: profil, registry transisi, ablasi sumber, validasi
-│   ├── figures/    # 7 figure ilmiah
-│   └── report/     # final_results.md, final_methodology.md
-└── docs/
-    ├── reproducibility.md
-    ├── methodology.md
-    └── results.md
+├── CIRCL_E_STAGE2_EVIDENCE_FIRST_ARTIFACTS/   # artefak Tahap 2: struktur, label semantik, ICA
+├── CIRCL_E_Dashboard_1.0.0/                   # kode sumber dan konfigurasi dashboard v1.0.0
+├── outputs/                                   # hasil Tahap 3
+│   ├── derived/    # profil ordinal, transisi semantik, analisis penghilangan sumber
+│   ├── figures/    # figur ilmiah
+│   └── report/     # final_methodology.md dan final_results.md
+└── docs/           # metodologi, hasil, reproduksibilitas, deployment
 ```
 
-Runtime dashboard dan ZIP handoff tidak disimpan dalam Git. Artefak tersebut didistribusikan melalui GitHub Releases.
+Ketiga notebook merekam alur eksekusi analisis: pembentukan struktur visual (Tahap 1), pemetaan semantik (Tahap 2), dan pembentukan profil ordinal (Tahap 3).
 
-## Dokumentasi teknis
+## Reproduksibilitas dan dokumentasi
 
 | Dokumen | Isi |
 |---------|-----|
-| [docs/reproducibility.md](docs/reproducibility.md) | Handoff ZIP, kebijakan SHA-256, environment variable, urutan eksekusi, nama legacy ZIP, field schema yang tidak boleh diubah |
-| [docs/methodology.md](docs/methodology.md) | Lima dimensi ordinal, criterion/route anchor, kebijakan interpretasi semantik, sensitivity & source ablation, aturan abstention, identitas dan peran E001 |
-| [docs/results.md](docs/results.md) | Tabel hasil lengkap, ketergantungan cakupan evidensi, interpretasi rute, 74/74 internal integrity checks, non-claims |
+| [docs/methodology.md](docs/methodology.md) | Metodologi penelitian sebagaimana laporan, plus perluasan implementasi teknis |
+| [docs/results.md](docs/results.md) | Hasil dan pembahasan sebagaimana laporan, plus diagnostik implementasi tambahan |
+| [docs/reproducibility.md](docs/reproducibility.md) | Environment, urutan eksekusi, dan kebutuhan menjalankan ulang analisis |
+| [docs/deployment.md](docs/deployment.md) | Cara memperoleh dan menjalankan dashboard v1.0.0 |
+| [CIRCL_E_Dashboard_1.0.0/README.md](CIRCL_E_Dashboard_1.0.0/README.md) | Petunjuk instalasi dashboard (Docker dan Python lokal) |
+
+Handoff antartahap analisis (`CIRCL_E_Discovery_Handoff.zip` dan seterusnya) tidak disimpan di Git dan direncanakan didistribusikan sebagai aset GitHub Release; setelah GitHub Release v1.0.0 diterbitkan, berkas handoff akan tersedia sebagai aset rilis. Detail lingkungan eksekusi ada di [docs/reproducibility.md](docs/reproducibility.md).
 
 ## Batasan
 
-Output pipeline adalah profil ordinal berbasis penilaian visual. Pipeline tidak menginferensikan: fungsionalitas perangkat, berat material, komposisi material, kimia baterai, keberhasilan perbaikan, yield pemulihan, nilai pasar, pembayaran recycler, profitabilitas, status hukum limbah, klasifikasi bahaya, atau rute penanganan optimal.
+Output CIRCL-E adalah profil ordinal berdasarkan penilaian visual. Metode ini tidak menginferensikan fungsionalitas perangkat, berat material, komposisi material, kimia baterai, keberhasilan perbaikan, *yield* pemulihan, nilai pasar, pembayaran *recycler*, profitabilitas, status hukum limbah, klasifikasi bahaya, maupun rute penanganan yang optimal. Klaster residual P00 belum dapat diinterpretasikan secara andal dan tiga klaster induk lain (P02, P09, P13) memerlukan validasi lanjutan. Keluaran saran pengolahan juga bergantung pada cakupan bukti literatur yang digunakan.
