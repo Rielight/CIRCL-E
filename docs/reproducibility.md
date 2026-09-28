@@ -30,15 +30,18 @@ Untuk kompatibilitas, Notebook 2 masih dapat menemukan pola legacy `FINAL_DISCOV
 
 ## File yang tidak di-track Git
 
-File-file berikut sengaja tidak di-track Git dan harus diunduh sebagai GitHub Release assets:
+File-file berikut sengaja tidak di-track Git dan direncanakan didistribusikan sebagai aset GitHub Release; setelah GitHub Release v1.0.0 diterbitkan, aset tersebut tersedia untuk diunduh (lihat [docs/deployment.md](deployment.md)):
 
 - `CIRCL_E_Discovery_Handoff.zip`
 - `CIRCL_E_Semantic_Mapping_Handoff.zip`
 - `CIRCL_E_Post_Mapping_Handoff.zip`
-- `CIRCL_E_Dashboard_1.0.0/runtime/release/`
-- `.circl_e_runtime/`
+- `CIRCL_E_Dashboard_1.0.0/runtime/release/` (tercakup dalam paket dashboard; lihat [docs/deployment.md](deployment.md))
 
 `CIRCL_E_STAGE2_EVIDENCE_FIRST_ARTIFACTS/` dan `outputs/` di-track langsung di repo.
+
+### Direktori runtime lokal (tidak perlu diunduh)
+
+`.circl_e_runtime/` bukan aset rilis dan tidak perlu diunduh: Notebook 2 membuatnya sendiri di root proyek (`PROJECT_ROOT/.circl_e_runtime/semantic_mapping`) sebagai direktori kerja saat dijalankan ulang.
 
 ## Environment variable
 
@@ -98,7 +101,7 @@ Field-field berikut digunakan sebagai kontrak downstream antar notebook dan tida
 - `discovery_status` dan aturan abstention
 - nama kolom pada CSV utama
 - semantic key dan mapping fields
-- RRP/WRO/CSO/TPC/IRP dan route ID
+- RRP/WRO/CSO/TPC sebagai empat dimensi utama penelitian, serta IRP sebagai diagnostik tambahan pada implementasi Post-Mapping, beserta route ID
 - ordinal level semantics
 
 ## Status eksekusi notebook
