@@ -106,4 +106,4 @@ Penghilangan satu sumber literatur mengklasifikasikan dampaknya pada tiap acuan:
 
 ### Kontrak antartahap
 
-Nama field berikut adalah kontrak downstream antar notebook dan tidak boleh diganti: `raw_parent_id`, `validated_fine_group_id`, `raw_visual_leaf_id`, `discovery_status` beserta aturan abstention, nama kolom CSV utama, semantic key dan mapping fields, RRP/WRO/CSO/TPC sebagai empat dimensi utama penelitian, serta IRP sebagai diagnostik tambahan pada implementasi Post-Mapping, beserta route ID, serta semantik level ordinal. Detail lingkungan eksekusi ada di [docs/reproducibility.md](reproducibility.md).
+Nama field berikut adalah kontrak downstream antar notebook dan tidak boleh diganti: `raw_parent_id`, `validated_fine_group_id`, `raw_visual_leaf_id`, `discovery_status` beserta aturan abstention, nama kolom CSV utama, semantic key dan mapping fields, RRP/WRO/CSO/TPC sebagai empat dimensi utama penelitian, serta IRP sebagai diagnostik tambahan pada implementasi Post-Mapping, berikut route ID dan semantik level ordinal. Detail lingkungan eksekusi ada di [docs/reproducibility.md](reproducibility.md).

@@ -14,7 +14,7 @@ Direktori `CIRCL_E_Dashboard_1.0.0/runtime/release/` — aset runtime terpasang 
 
 Paket lengkap `CIRCL_E_Dashboard_1.0.0.zip` dimaksudkan didistribusikan sebagai aset GitHub Release (v1.0.0). Paket ini memuat seluruh isi `CIRCL_E_Dashboard_1.0.0/` termasuk `runtime/release/`, dengan checksum setiap berkas pada `SHA256SUMS`.
 
-> Catatan: GitHub Release v1.0.0 belum terbit. Setelah rilis terbit, unduh paket tersebut dan gunakan sebagai distribusi dashboard lengkap; jangan menggantungkan diri pada clone Git polos.
+> Catatan: GitHub Release v1.0.0 belum terbit. Setelah rilis terbit, unduh paket tersebut dan gunakan sebagai distribusi dashboard lengkap; jangan mengandalkan checkout Git tanpa aset runtime.
 
 ## Langkah setelah paket diperoleh
 
