@@ -30,7 +30,7 @@ Untuk kompatibilitas, Notebook 2 masih dapat menemukan pola legacy `FINAL_DISCOV
 
 ## File yang tidak di-track Git
 
-File-file berikut sengaja tidak di-track Git dan direncanakan didistribusikan sebagai aset GitHub Release; setelah GitHub Release v1.0.0 diterbitkan, aset tersebut tersedia untuk diunduh (lihat [panduan deployment](deployment.md)):
+File-file berikut sengaja tidak di-track Git dan tersedia sebagai aset GitHub Release v1.0.0 (lihat [panduan deployment](deployment.md)):
 
 - `CIRCL_E_Discovery_Handoff.zip`
 - `CIRCL_E_Semantic_Mapping_Handoff.zip`

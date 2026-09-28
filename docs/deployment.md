@@ -10,11 +10,11 @@ Direktori `CIRCL_E_Dashboard_1.0.0/runtime/release/` — aset runtime terpasang 
 
 `Dockerfile` menyalin direktori tersebut ke dalam image (`COPY runtime/release /app/runtime/release`) dan `docker-compose.yml` me-*mount* `./runtime/release` sebagai *read-only*. Tanpa `runtime/release/`, pembangunan image maupun `scripts/verify_runtime.py` akan gagal pada pemeriksaan tata letak bundle. Dengan demikian, checkout Git tanpa aset runtime bukan distribusi dashboard yang lengkap dan dapat dijalankan.
 
-## Cara yang dimaksudkan: paket GitHub Release
+## Paket GitHub Release v1.0.0
 
-Paket lengkap `CIRCL_E_Dashboard_1.0.0.zip` dimaksudkan didistribusikan sebagai aset GitHub Release (v1.0.0). Paket ini memuat seluruh isi `CIRCL_E_Dashboard_1.0.0/` termasuk `runtime/release/`, dengan checksum setiap berkas pada `SHA256SUMS`.
+Paket lengkap `CIRCL_E_Dashboard_1.0.0.zip` tersedia sebagai aset GitHub Release v1.0.0. Paket ini memuat seluruh isi `CIRCL_E_Dashboard_1.0.0/` termasuk `runtime/release/`, dengan checksum setiap berkas pada `SHA256SUMS`.
 
-> Catatan: GitHub Release v1.0.0 belum terbit. Setelah rilis terbit, unduh paket tersebut dan gunakan sebagai distribusi dashboard lengkap; jangan mengandalkan checkout Git tanpa aset runtime.
+> Paket lengkap tersedia melalui [GitHub Release v1.0.0](https://github.com/Rielight/CIRCL-E/releases/tag/v1.0.0). Gunakan paket tersebut sebagai distribusi dashboard lengkap; checkout Git tanpa aset runtime tidak memuat seluruh aset inferensi.
 
 ## Langkah setelah paket diperoleh
 
@@ -27,4 +27,4 @@ Direktori *backbone* tidak termasuk dalam paket rilis dan tidak pernah dibundel;
 ## Catatan
 
 - Isi `CIRCL_E_Dashboard_1.0.0/` di repo adalah bundel v1.0.0 yang checksum-nya terkunci pada `SHA256SUMS` (574 berkas); jangan mengubah isi direktori tersebut.
-- Handoff ZIP antartahap analisis juga direncanakan didistribusikan sebagai aset GitHub Release, bukan Git (lihat [docs/reproducibility.md](reproducibility.md)).
+- Handoff ZIP antartahap analisis tersedia sebagai aset GitHub Release v1.0.0, bukan di dalam Git (lihat [docs/reproducibility.md](reproducibility.md)).

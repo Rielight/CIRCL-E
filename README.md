@@ -70,7 +70,7 @@ Contoh ini menunjukkan bahwa kondisi fisik yang terlihat dapat menyempurnakan pe
 
 `CIRCL_E_Dashboard_1.0.0/` menyediakan aplikasi Streamlit untuk inferensi pada gambar baru. Aplikasi berjalan sepenuhnya secara lokal dan tidak memerlukan akses internet saat digunakan; *backbone* DINOv3 dan C-RADIOv4 disediakan terpisah pada direktori lokal.
 
-Catatan distribusi: checkout Git publik hanya memuat kode sumber dan konfigurasi dashboard. Direktori `runtime/release/` sengaja tidak disertakan di Git, sedangkan `Dockerfile` mengharapkannya — checkout Git tanpa aset runtime bukan distribusi dashboard yang dapat langsung dijalankan. Paket lengkap `CIRCL_E_Dashboard_1.0.0.zip` dimaksudkan didistribusikan sebagai aset GitHub Release; setelah rilis v1.0.0 terbit, gunakan paket tersebut untuk runtime yang lengkap. Lihat [docs/deployment.md](docs/deployment.md).
+Catatan distribusi: checkout Git publik hanya memuat kode sumber dan konfigurasi dashboard. Direktori `runtime/release/` sengaja tidak disertakan di Git, sedangkan `Dockerfile` mengharapkannya — checkout Git tanpa aset runtime bukan distribusi dashboard yang dapat langsung dijalankan. Paket lengkap `CIRCL_E_Dashboard_1.0.0.zip` tersedia sebagai aset GitHub Release v1.0.0; gunakan paket tersebut untuk runtime yang lengkap. Lihat [docs/deployment.md](docs/deployment.md).
 
 ## Struktur repositori
 
@@ -100,7 +100,7 @@ Ketiga notebook merekam alur eksekusi analisis: pembentukan struktur visual (Tah
 | [docs/deployment.md](docs/deployment.md) | Cara memperoleh dan menjalankan dashboard v1.0.0 |
 | [CIRCL_E_Dashboard_1.0.0/README.md](CIRCL_E_Dashboard_1.0.0/README.md) | Petunjuk instalasi dashboard (Docker dan Python lokal) |
 
-Handoff antartahap analisis (`CIRCL_E_Discovery_Handoff.zip` dan seterusnya) tidak disimpan di Git dan direncanakan didistribusikan sebagai aset GitHub Release; setelah GitHub Release v1.0.0 diterbitkan, berkas handoff akan tersedia sebagai aset rilis. Detail lingkungan eksekusi ada di [docs/reproducibility.md](docs/reproducibility.md).
+Handoff antartahap analisis (`CIRCL_E_Discovery_Handoff.zip` dan seterusnya) tidak disimpan di Git dan tersedia sebagai aset GitHub Release v1.0.0. Detail lingkungan eksekusi ada di [docs/reproducibility.md](docs/reproducibility.md).
 
 ## Batasan
 
